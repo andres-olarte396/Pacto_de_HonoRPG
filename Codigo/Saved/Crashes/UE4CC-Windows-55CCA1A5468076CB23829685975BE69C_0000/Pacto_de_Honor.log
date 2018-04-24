@@ -1,0 +1,889 @@
+﻿Log file open, 03/08/18 16:59:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Pacto_de_Honor
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1187694225) SRandInit(-1187694225).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169675
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.08-21.59.50:569][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.08-21.59.50:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.08-21.59.50:652][  0]LogInit: Computer: DELL_INSPIRON
+[2018.03.08-21.59.50:652][  0]LogInit: User: Dell
+[2018.03.08-21.59.50:652][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.08-21.59.50:652][  0]LogInit: High frequency timer resolution =3.515626 MHz
+[2018.03.08-21.59.50:653][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.08-21.59.50:653][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.08-21.59.50:653][  0]LogMemory: Process Physical Memory: 274.99 MB used, 274.99 MB peak
+[2018.03.08-21.59.50:653][  0]LogMemory: Process Virtual Memory: 271.73 MB used, 271.73 MB peak
+[2018.03.08-21.59.50:653][  0]LogMemory: Physical Memory: 3464.34 MB used,  4665.23 MB free, 8129.57 MB total
+[2018.03.08-21.59.50:653][  0]LogMemory: Virtual Memory: 684.93 MB used,  4665.23 MB free, 134217728.00 MB total
+[2018.03.08-21.59.50:925][  0]LogInit: Using OS detected language (es-ES).
+[2018.03.08-21.59.50:925][  0]LogInit: Using OS detected locale (es-ES).
+[2018.03.08-21.59.50:930][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.03.08-21.59.51:047][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.08-21.59.51:433][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.08-21.59.51:464][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.08-21.59.51:464][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.08-21.59.51:466][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.08-21.59.51:466][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.08-21.59.51:467][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.08-21.59.51:471][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.08-21.59.51:471][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.08-21.59.51:471][  0]LogWindows: EnumDisplayDevices:
+[2018.03.08-21.59.51:471][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.08-21.59.51:471][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.08-21.59.51:471][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.08-21.59.51:471][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.08-21.59.51:471][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.08-21.59.51:471][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.08-21.59.51:471][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.08-21.59.51:471][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.08-21.59.51:471][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2018.03.08-21.59.51:491][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.08-21.59.51:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.08-21.59.51:559][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Git/Pacto_de_HonoRPG/Codigo/Intermediate/Shaders/WorkingDirectory/6164/).
+[2018.03.08-21.59.51:559][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/6943EBFD4B9FFF5DB8CC05AAB7C25F66/'.
+[2018.03.08-21.59.51:560][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.08-21.59.52:735][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.08-21.59.52:809][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.08-21.59.52:885][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.08-21.59.52:962][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.08-21.59.53:037][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.08-21.59.53:112][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.08-21.59.53:219][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.08-21.59.53:299][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.08-21.59.53:370][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.08-21.59.53:465][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.08-21.59.53:545][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.08-21.59.53:634][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.08-21.59.53:711][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.08-21.59.53:787][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.08-21.59.53:935][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.08-21.59.53:935][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.08-21.59.54:008][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.08-21.59.54:073][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.08-21.59.54:197][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.08-21.59.54:250][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.08-21.59.54:320][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.08-21.59.54:391][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.08-21.59.54:463][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.08-21.59.54:535][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.08-21.59.54:535][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.08-21.59.55:235][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.08-21.59.55:298][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.08-21.59.55:299][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.08-21.59.55:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.08-21.59.55:299][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.08-21.59.55:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.08-21.59.55:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.08-21.59.55:329][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.08-21.59.55:342][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.08-21.59.55:353][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.08-21.59.55:353][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.08-21.59.55:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.08-21.59.55:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.08-21.59.55:790][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.08-21.59.56:223][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.08-21.59.56:288][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.08-21.59.56:288][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.08-21.59.56:288][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.08-21.59.56:288][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.08-21.59.56:288][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.08-21.59.56:313][  0]LogNetVersion: Pacto_de_Honor , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2404482579)
+[2018.03.08-21.59.56:490][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2018.03.08-21.59.57:039][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.116923 seconds
+[2018.03.08-21.59.57:044][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.08-21.59.57:044][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.08-21.59.57:044][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.08-21.59.57:129][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.08-22.00.01:159][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.08-22.00.01:221][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.08-22.00.02:258][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.08-22.00.02:926][  0]SourceControl: El control de código fuente está desactivado
+[2018.03.08-22.00.04:715][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.08-22.00.05:110][  0]LogOcInput: OculusInput pre-init called
+[2018.03.08-22.00.05:582][  0]LogEngine: Initializing Engine...
+[2018.03.08-22.00.05:585][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.08-22.00.05:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.08-22.00.05:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.08-22.00.06:006][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.08-22.00.06:017][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.08-22.00.06:074][  0]LogInit: FAudioDevice initialized.
+[2018.03.08-22.00.06:303][  0]LogDerivedDataCache: Saved boot cache 0.23s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.08-22.00.06:323][  0]LogInit: Texture streaming: Enabled
+[2018.03.08-22.00.06:519][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.08-22.00.06:718][  0]LogInit: Transaction tracking system initialized
+[2018.03.08-22.00.07:211][  0]BlueprintLog: New page: Cargar el editor
+[2018.03.08-22.00.08:692][  0]LocalizationService: Localization service is disabled
+[2018.03.08-22.00.09:900][  0]LogConsoleResponse: Display: 
+[2018.03.08-22.00.10:090][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.08-22.00.10:090][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.08-22.00.10:090][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.08-22.00.10:599][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/' took 0.02s
+[2018.03.08-22.00.12:149][  0]Cmd: MAP LOAD FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.08-22.00.12:290][  0]LightingResults: New page: Diseñar la iluminación
+[2018.03.08-22.00.12:371][  0]MapCheck: New page: Revisión del mapa
+[2018.03.08-22.00.12:371][  0]LightingResults: New page: Diseñar la iluminación
+[2018.03.08-22.00.12:869][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.08-22.00.12:876][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.08-22.00.12:886][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.08-22.00.12:986][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99,705ms to complete.
+[2018.03.08-22.00.12:986][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.837
+[2018.03.08-22.00.13:241][  0]LogCollectionManager: Loaded 0 collections in 0.002336 seconds
+[2018.03.08-22.00.13:416][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Collections/' took 0.01s
+[2018.03.08-22.00.13:416][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Developers/Dell/Collections/' took 0.01s
+[2018.03.08-22.00.13:416][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Collections/' took 0.01s
+[2018.03.08-22.00.13:416][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.08-22.00.13:425][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2363 classes and 519 folders.
+[2018.03.08-22.00.13:574][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.08-22.00.13:765][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.08-22.00.13:915][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.08-22.00.14:007][  0]LogSlate: Took 0.001085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.08-22.00.14:016][  0]LogSlate: Took 0.001672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.08-22.00.14:029][  0]LogSlate: Took 0.002131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.08-22.00.14:159][  0]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1).
+[2018.03.08-22.00.14:342][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.08-22.00.14:342][  0]LogLoad: (Engine Initialization) Total time: 28.52 seconds
+[2018.03.08-22.00.14:342][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.08-22.00.14:342][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.08-22.00.14:712][  0]SourceControl: On branch master
+[2018.03.08-22.00.14:712][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.08-22.00.14:712][  0]SourceControl: nothing to commit, working tree clean
+[2018.03.08-22.00.14:713][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.08-22.00.14:802][  0]LogSlate: Took 0.003055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.08-22.00.16:698][  6]LogAssetRegistry: Asset discovery search completed in 20.2293 seconds
+[2018.03.08-22.00.16:707][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.08-22.00.16:707][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
+[2018.03.08-22.00.18:548][158]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.08-22.00.18:790][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.00.18:791][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.08-22.00.18:794][158]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (8/3/2018 12:00:18)
+[2018.03.08-22.00.18:794][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.08-22.00.18:821][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027350s)
+[2018.03.08-22.00.18:822][158]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.08-22.00.18:822][158]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2018.03.08-22.00.18:823][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028933s)
+[2018.03.08-22.00.18:838][158]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.08-22.00.18:849][158]LogInit: FAudioDevice initialized.
+[2018.03.08-22.00.19:215][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.08-22.00.19:220][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.08-17.00.19
+[2018.03.08-22.00.19:220][158]LogWorld: Bringing up level for play took: 0.001985
+[2018.03.08-22.00.19:305][158]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.03.08-22.00.19:312][158]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1,137
+[2018.03.08-22.00.19:312][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.00.20:538][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.00.20:573][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.01.02:579][305]LogSlate: Took 0.002184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.08-22.01.08:564][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.08-22.01.41:722][981]MapCheck: New page: Revisión del mapa
+[2018.03.08-22.01.41:733][981]LightingResults: New page: Diseño de la iluminación - 8/3/2018 12:01:41
+[2018.03.08-22.01.41:808][981]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.08-22.01.41:875][981]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.08-22.01.41:899][981]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.08-22.01.43:982][981]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.08-22.01.43:982][981]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6164
+[2018.03.08-22.01.47:165][981]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.08-22.01.47:166][981]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.08-22.01.47:166][981]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.08-22.01.47:166][981]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.08-22.01.47:166][981]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.08-22.01.47:416][981]LogEditorBuildUtils: Build time 0:05
+[2018.03.08-22.01.51:848][316]Job is a success!
+[2018.03.08-22.01.51:866][317]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:      BrickData 245x5x5 = 0.2Mb
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:          0: 2.0% covering 100.0% of volume
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:          1: 8.2% covering 6.3% of volume
+[2018.03.08-22.01.51:910][317]LogVolumetricLightmapImport:          2: 89.8% covering 1.1% of volume
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.03.08-22.01.52:373][317]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.03.08-22.01.52:567][317]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.08-22.01.52:567][317]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2018.03.08-22.01.52:611][317]Lightmass on DELL_INSPIRON: 4.18 sec total, 92 ms importing, 3 ms setup, 922 ms photons, 3.13 sec processing, 0 ms extra exporting [11/11 mappings]. Threads: 21.7 sec total, 7.66 sec processing.
+[2018.03.08-22.01.52:629][317]LogStaticLightingSystem: Illumination: 10.8 sec (430 ms encoding lightmaps, 186 ms encoding shadowmaps)
+[2018.03.08-22.01.52:629][317]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.03.08-22.01.52:629][317]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.08-22.01.53:172][317]DumpUnbuiltLightIteractions
+[2018.03.08-22.01.53:172][317]Lights with unbuilt interactions: 0
+[2018.03.08-22.01.53:173][317]
+[2018.03.08-22.01.53:173][317]Primitives with unbuilt interactions: 0
+[2018.03.08-22.01.53:192][318]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.08-22.01.53:192][318]MapCheck: New page: ThirdPersonExampleMap - 8/3/2018 12:01:53
+[2018.03.08-22.01.53:321][318]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128,957ms to complete.
+[2018.03.08-22.03.54:328][ 61]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.03.08-22.03.54:859][ 61]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.08-22.03.55:011][ 61]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2018.03.08-22.07.52:679][288]LogEditorTransaction: Undo Modificar componente(s)
+[2018.03.08-22.07.52:688][288]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.08-22.08.16:208][746]LogSlate: Took 0.002410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.08-22.09.56:187][ 18]BlueprintLog: New page: Compilar NPC_1
+[2018.03.08-22.09.59:288][350]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.08-22.09.59:299][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.09.59:300][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.08-22.09.59:300][350]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (8/3/2018 12:09:59)
+[2018.03.08-22.09.59:300][350]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.08-22.09.59:313][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013437s)
+[2018.03.08-22.09.59:315][350]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.08-22.09.59:315][350]LogPlayLevel: PIE: World Init took: (0.001483s)
+[2018.03.08-22.09.59:315][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015349s)
+[2018.03.08-22.09.59:335][350]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.08-22.09.59:344][350]LogInit: FAudioDevice initialized.
+[2018.03.08-22.09.59:377][350]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.08-22.09.59:379][350]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.08-17.09.59
+[2018.03.08-22.09.59:380][350]LogWorld: Bringing up level for play took: 0.001768
+[2018.03.08-22.09.59:383][350]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,792
+[2018.03.08-22.09.59:384][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.10.02:317][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.10.02:353][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.10.40:546][236]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.10.43:039][533]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.10.50:538][358]BlueprintLog: New page: Compilar NPC_1
+[2018.03.08-22.11.21:472][ 30]LogSavePackage: Save=167.68ms
+[2018.03.08-22.11.21:472][ 30]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/ThirdPersonExampleMap_Auto10DAA14284CC9D702102889AE7A5F8720.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.03.08-22.11.21:472][ 30]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.03.08-22.11.21:474][ 30]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.218
+[2018.03.08-22.11.21:474][ 30]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
+[2018.03.08-22.11.21:479][ 30]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.03.08-22.11.21:479][ 30]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData]
+[2018.03.08-22.11.23:486][ 30]LogSavePackage: Save=53.94ms
+[2018.03.08-22.11.23:486][ 30]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/ThirdPersonExampleMap_BuiltData_9F8D863146057DDEEAF0428C67EC1C36.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset'
+[2018.03.08-22.11.23:488][ 30]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset
+[2018.03.08-22.11.23:489][ 30]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dialogos/NPC_1] ([1] browsable assets)...
+[2018.03.08-22.11.23:554][ 30]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Dialogos/NPC_1.NPC_1]
+[2018.03.08-22.11.23:554][ 30]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dialogos/NPC_1]
+[2018.03.08-22.11.23:554][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogos/NPC_1" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.08-22.11.23:603][ 30]LogSavePackage: Save=45.34ms
+[2018.03.08-22.11.23:603][ 30]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/NPC_1_Auto108480037461C1AC5E35925B894690735.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto1.uasset'
+[2018.03.08-22.11.23:603][ 30]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto1.uasset
+[2018.03.08-22.11.23:603][ 30]LogFileHelpers: Auto-saving content packages took 2.125
+[2018.03.08-22.11.29:899][271]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.19.02:045][175]AssetReimport: New page: Outstanding source content changes 12:19:02
+[2018.03.08-22.19.02:051][175]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle.fbx)
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: Model, ItemCount : 67
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: NodeAttribute, ItemCount : 67
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.03.08-22.19.02:088][175]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2018.03.08-22.19.02:097][175]LogFbx: Loading FBX Scene from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle.fbx
+[2018.03.08-22.19.02:140][175]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.08-22.19.43:626][175]LogFbx: Loading FBX Scene from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle.fbx
+[2018.03.08-22.19.43:666][175]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(0) Hips
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(1) Spine
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(2) Spine1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(3) Spine2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(4) Neck
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(5) Head
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(7) LeftEye
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(8) RightEye
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(10) LeftArm
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(12) LeftHand
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(13) LeftHandThumb1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(14) LeftHandThumb2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(15) LeftHandThumb3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(16) LeftHandThumb4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(17) LeftHandIndex1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(18) LeftHandIndex2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(19) LeftHandIndex3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(20) LeftHandIndex4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(21) LeftHandMiddle1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(22) LeftHandMiddle2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(23) LeftHandMiddle3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(24) LeftHandMiddle4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(33) RightShoulder
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(34) RightArm
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(35) RightForeArm
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(36) RightHand
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(37) RightHandPinky1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(38) RightHandPinky2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(39) RightHandPinky3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(40) RightHandPinky4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(41) RightHandRing1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(42) RightHandRing2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(43) RightHandRing3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(44) RightHandRing4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(45) RightHandMiddle1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(46) RightHandMiddle2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(47) RightHandMiddle3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(48) RightHandMiddle4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(49) RightHandIndex1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(50) RightHandIndex2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(51) RightHandIndex3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(52) RightHandIndex4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(53) RightHandThumb1
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(54) RightHandThumb2
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(55) RightHandThumb3
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(56) RightHandThumb4
+[2018.03.08-22.19.43:670][175]LogFbx: SortedLinks :(57) LeftUpLeg
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(58) LeftLeg
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(59) LeftFoot
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(60) LeftToeBase
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(61) LeftToe_End
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(62) RightUpLeg
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(63) RightLeg
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(64) RightFoot
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(65) RightToeBase
+[2018.03.08-22.19.43:671][175]LogFbx: SortedLinks :(66) RightToe_End
+[2018.03.08-22.19.43:671][175]LogFbx: Parsing AnimStack mixamo.com
+[2018.03.08-22.19.43:683][175]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle'
+[2018.03.08-22.19.43:683][175]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle'
+[2018.03.08-22.19.46:321][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Dialogos/Standing_W_Briefcase_Idle.Standing_W_Briefcase_Idle
+[2018.03.08-22.19.46:322][175]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_W_Briefcase_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.19.46:507][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogos/Standing_W_Briefcase_Idle" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle.uasset" SILENT=true
+[2018.03.08-22.19.46:520][176]LogSavePackage: Save=11.87ms
+[2018.03.08-22.19.46:520][176]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Standing_W_Briefcase_Idle1481632B41960C7CA7768F8C99DCF07A.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle.uasset'
+[2018.03.08-22.19.46:521][176]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle.uasset
+[2018.03.08-22.19.50:123][517]AssetReimport: Importing new asset /Game/Dialogos/Standing_W_Briefcase_Idle.
+[2018.03.08-22.19.53:445][900]LogEditorViewport: Clicking on Actor (LMB): NPC_1_C (NPC_1)
+[2018.03.08-22.20.22:262][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.08-22.20.23:364][320]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.08-22.20.23:379][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.20.23:380][320]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.08-22.20.23:383][320]LogPlayLevel: [PlayLevel] Compiling NPC_1 before play...
+[2018.03.08-22.20.23:694][320]LogPlayLevel: PlayLevel: Blueprint regeneration took 313 ms (1 blueprints)
+[2018.03.08-22.20.23:694][320]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (8/3/2018 12:20:23)
+[2018.03.08-22.20.23:694][320]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.08-22.20.23:725][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030703s)
+[2018.03.08-22.20.23:726][320]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.08-22.20.23:726][320]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2018.03.08-22.20.23:726][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032344s)
+[2018.03.08-22.20.23:747][320]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.08-22.20.23:757][320]LogInit: FAudioDevice initialized.
+[2018.03.08-22.20.23:790][320]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.08-22.20.23:791][320]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.08-17.20.23
+[2018.03.08-22.20.23:791][320]LogWorld: Bringing up level for play took: 0.001295
+[2018.03.08-22.20.23:794][320]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,381
+[2018.03.08-22.20.23:794][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.20.29:085][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.20.29:119][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.08-22.20.30:044][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.03.08-22.20.30:762][139]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Standing_W_Briefcase_Idle)
+[2018.03.08-22.20.36:988][811]Cmd: DELETE
+[2018.03.08-22.20.36:988][811]Cmd: ACTOR DELETE
+[2018.03.08-22.20.36:993][811]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.08-22.20.37:009][811]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.08-22.22.14:575][546]LogSavePackage: Save=158.77ms
+[2018.03.08-22.22.14:575][546]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/ThirdPersonExampleMap_Auto275DC39DA4C3D6F46905B4A90CEC55CA0.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.03.08-22.22.14:576][546]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.03.08-22.22.14:577][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.198
+[2018.03.08-22.22.14:577][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2018.03.08-22.22.14:580][546]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dialogos/NPC_1] ([1] browsable assets)...
+[2018.03.08-22.22.14:592][546]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Dialogos/NPC_1.NPC_1]
+[2018.03.08-22.22.14:592][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dialogos/NPC_1]
+[2018.03.08-22.22.14:592][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogos/NPC_1" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.03.08-22.22.14:619][546]LogSavePackage: Save=26.02ms
+[2018.03.08-22.22.14:619][546]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/NPC_1_Auto26E3503B6412F0DF6416005BE9F09AC6B.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto2.uasset'
+[2018.03.08-22.22.14:620][546]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/Dialogos/NPC_1_Auto2.uasset
+[2018.03.08-22.22.14:620][546]LogFileHelpers: Auto-saving content packages took 0.041
+[2018.03.08-22.23.24:792][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.08-22.23.26:212][205]AssetReimport: New page: Outstanding source content changes 12:23:26
+[2018.03.08-22.23.26:258][205]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbx)
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Model, ItemCount : 66
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Texture, ItemCount : 5
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Video, ItemCount : 5
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Deformer, ItemCount : 66
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.03.08-22.23.26:326][205]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2018.03.08-22.23.26:330][205]LogFbx: Loading FBX Scene from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbx
+[2018.03.08-22.23.26:497][205]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.08-22.23.47:238][205]LogFbx: Loading FBX Scene from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbx
+[2018.03.08-22.23.47:407][205]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.08-22.23.47:410][205]LogFbx: =================================================
+[2018.03.08-22.23.47:410][205]LogFbx: Dumping Node START [Vampire] 
+[2018.03.08-22.23.47:410][205]LogFbx: 	Total Deformer Count -1016887520.
+[2018.03.08-22.23.47:410][205]LogFbx: 		[Node 1] Skin Vampire (Type Skin).
+[2018.03.08-22.23.47:410][205]LogFbx: =================================================
+[2018.03.08-22.23.47:410][205]LogFbx: 	Attribute (Vampire) Type (4).
+[2018.03.08-22.23.47:410][205]LogFbx: 		[Node Attribute Child 1] Vampire (Type Mesh).
+[2018.03.08-22.23.47:410][205]LogFbx: Dumping Node END [Vampire]
+[2018.03.08-22.23.47:411][205]LogFbx: =================================================
+[2018.03.08-22.23.47:411][205]LogFbx: Dumping Node START [Vampire] 
+[2018.03.08-22.23.47:411][205]LogFbx: 	Total Deformer Count -1016886288.
+[2018.03.08-22.23.47:411][205]LogFbx: 		[Node 1] Skin Vampire (Type Skin).
+[2018.03.08-22.23.47:411][205]LogFbx: =================================================
+[2018.03.08-22.23.47:411][205]LogFbx: 	Attribute (Vampire) Type (4).
+[2018.03.08-22.23.47:411][205]LogFbx: 		[Node Attribute Child 1] Vampire (Type Mesh).
+[2018.03.08-22.23.47:411][205]LogFbx: Dumping Node END [Vampire]
+[2018.03.08-22.23.47:414][205]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Vampire
+[2018.03.08-22.23.47:416][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_MAT'
+[2018.03.08-22.23.47:416][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_MAT'
+[2018.03.08-22.23.47:420][205]LogMaterial: Missing cached shader map for material Vampire_MAT, compiling. 
+[2018.03.08-22.23.47:485][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_diffuse'
+[2018.03.08-22.23.47:485][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_diffuse'
+[2018.03.08-22.23.49:631][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_emission'
+[2018.03.08-22.23.49:631][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_emission'
+[2018.03.08-22.23.49:772][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_specular'
+[2018.03.08-22.23.49:772][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_specular'
+[2018.03.08-22.23.51:157][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_normal'
+[2018.03.08-22.23.51:157][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Vampire_normal'
+[2018.03.08-22.23.54:293][205]LogMaterial: Missing cached shader map for material Vampire_MAT, compiling. 
+[2018.03.08-22.23.54:783][205]LogSkeletalMesh: Section 0: 9081 vertices, 52 active bones
+[2018.03.08-22.23.54:806][205]LogSkeletalMesh: Section 0: Material=0, 15022 triangles
+[2018.03.08-22.23.54:822][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Skeleton'
+[2018.03.08-22.23.54:823][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Skeleton'
+[2018.03.08-22.23.54:827][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__PhysicsAsset'
+[2018.03.08-22.23.54:827][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__PhysicsAsset'
+[2018.03.08-22.23.54:842][205]LogFbx: =================================================
+[2018.03.08-22.23.54:843][205]LogFbx: Dumping Node START [Vampire] 
+[2018.03.08-22.23.54:843][205]LogFbx: 	Total Deformer Count 844746160.
+[2018.03.08-22.23.54:843][205]LogFbx: 		[Node 1] Skin Vampire (Type Skin).
+[2018.03.08-22.23.54:843][205]LogFbx: =================================================
+[2018.03.08-22.23.54:843][205]LogFbx: 	Attribute (Vampire) Type (4).
+[2018.03.08-22.23.54:843][205]LogFbx: 		[Node Attribute Child 1] Vampire (Type Mesh).
+[2018.03.08-22.23.54:843][205]LogFbx: Dumping Node END [Vampire]
+[2018.03.08-22.23.54:844][205]LogFbx: =================================================
+[2018.03.08-22.23.54:844][205]LogFbx: Dumping Node START [Vampire] 
+[2018.03.08-22.23.54:844][205]LogFbx: 	Total Deformer Count 844745992.
+[2018.03.08-22.23.54:844][205]LogFbx: 		[Node 1] Skin Vampire (Type Skin).
+[2018.03.08-22.23.54:844][205]LogFbx: =================================================
+[2018.03.08-22.23.54:844][205]LogFbx: 	Attribute (Vampire) Type (4).
+[2018.03.08-22.23.54:844][205]LogFbx: 		[Node Attribute Child 1] Vampire (Type Mesh).
+[2018.03.08-22.23.54:844][205]LogFbx: Dumping Node END [Vampire]
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(0) Hips
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(1) Spine
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(2) Spine1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(3) Spine2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(4) Neck
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(5) Head
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(8) LeftArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(10) LeftHand
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(31) RightShoulder
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(32) RightArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(33) RightForeArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(34) RightHand
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(56) LeftLeg
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(57) LeftFoot
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(61) RightLeg
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(62) RightFoot
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(63) RightToeBase
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(64) RightToe_End
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(0) Hips
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(1) Spine
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(2) Spine1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(3) Spine2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(4) Neck
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(5) Head
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(8) LeftArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(10) LeftHand
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.03.08-22.23.54:845][205]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(31) RightShoulder
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(32) RightArm
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(33) RightForeArm
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(34) RightHand
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(56) LeftLeg
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(57) LeftFoot
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(61) RightLeg
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(62) RightFoot
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(63) RightToeBase
+[2018.03.08-22.23.54:846][205]LogFbx: SortedLinks :(64) RightToe_End
+[2018.03.08-22.23.54:847][205]LogFbx: Parsing AnimStack Take 001
+[2018.03.08-22.23.54:848][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_Take_001'
+[2018.03.08-22.23.54:848][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_Take_001'
+[2018.03.08-22.23.55:023][205]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_Take_001.Standing_W_Briefcase_Idle__1__Anim_Take_001
+[2018.03.08-22.23.55:024][205]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_W_Briefcase_Idle__1__Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.23.55:029][205]LogFbx: Parsing AnimStack mixamo.com
+[2018.03.08-22.23.55:044][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_mixamo_com'
+[2018.03.08-22.23.55:044][205]LogLinker: No puede encontrar el archivo '/Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_mixamo_com'
+[2018.03.08-22.23.58:848][205]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Dialogos/Standing_W_Briefcase_Idle__1__Anim_mixamo_com.Standing_W_Briefcase_Idle__1__Anim_mixamo_com
+[2018.03.08-22.23.58:850][205]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_W_Briefcase_Idle__1__Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.23.59:218][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogos/Standing_W_Briefcase_Idle__1_" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle__1_.uasset" SILENT=true
+[2018.03.08-22.23.59:252][206]LogSavePackage: Save=33.31ms
+[2018.03.08-22.23.59:252][206]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Standing_W_Briefcase_Idle__1_5DD410E546123738194513A4D76460D5.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle__1_.uasset'
+[2018.03.08-22.23.59:254][206]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing_W_Briefcase_Idle__1_.uasset
+[2018.03.08-22.24.03:030][397]AssetReimport: Importing new asset /Game/Dialogos/Standing_W_Briefcase_Idle__1_.
+[2018.03.08-22.24.09:341][ 92]AssetReimport: New page: Outstanding source content changes 12:24:09
+[2018.03.08-22.24.09:342][ 92]LogEditorFactories: Performing atomic reimport of [D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_diffuse.png]
+[2018.03.08-22.24.09:351][ 92]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_diffuse.png)
+[2018.03.08-22.24.11:017][ 92]LogEditorFactories: -- imported successfully
+[2018.03.08-22.24.11:039][ 93]LogEditorFactories: Performing atomic reimport of [D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_emission.png]
+[2018.03.08-22.24.11:040][ 93]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_emission.png)
+[2018.03.08-22.24.11:098][ 93]LogEditorFactories: -- imported successfully
+[2018.03.08-22.24.11:114][ 94]LogEditorFactories: Performing atomic reimport of [D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_specular.png]
+[2018.03.08-22.24.11:122][ 94]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_specular.png)
+[2018.03.08-22.24.11:956][ 94]LogEditorFactories: -- imported successfully
+[2018.03.08-22.24.11:976][ 95]LogEditorFactories: Performing atomic reimport of [D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_normal.png]
+[2018.03.08-22.24.11:985][ 95]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_normal.png)
+[2018.03.08-22.24.12:538][ 95]LogEditorFactories: -- imported successfully
+[2018.03.08-22.24.15:559][442]AssetReimport: Reimported asset Vampire_diffuse from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_diffuse.png.
+[2018.03.08-22.24.15:559][442]AssetReimport: Reimported asset Vampire_emission from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_emission.png.
+[2018.03.08-22.24.15:559][442]AssetReimport: Reimported asset Vampire_specular from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_specular.png.
+[2018.03.08-22.24.15:559][442]AssetReimport: Reimported asset Vampire_normal from D:/Git/Pacto_de_HonoRPG/Codigo/Content/Dialogos/Standing W_Briefcase Idle (1).fbm/Vampire_normal.png.
+[2018.03.08-22.25.11:835][609]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.08-22.25.12:171][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.08-22.25.12:236][609]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.03.08-22.25.12:519][609]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.03.08-22.26.14:982][355]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.26.26:590][743]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.26.27:397][743]LogBlueprint: Warning: [Compiler Base_animacion] Obtener : 'Ataque1' variable not found. Base class was probably changed. /Game/Heroes/Animaciones/Base/Base_animacion.Base_animacion
+[2018.03.08-22.26.27:398][743]LogBlueprint: Warning: [Compiler Base_animacion] Obtener : 'Ataque2' variable not found. Base class was probably changed. /Game/Heroes/Animaciones/Base/Base_animacion.Base_animacion
+[2018.03.08-22.26.27:398][743]LogBlueprint: Warning: [Compiler Base_animacion] Obtener : 'Morir' variable not found. Base class was probably changed. /Game/Heroes/Animaciones/Base/Base_animacion.Base_animacion
+[2018.03.08-22.26.27:411][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Morir" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Morir
+[2018.03.08-22.26.27:411][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Ataque2" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Ataque2
+[2018.03.08-22.26.27:412][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Ataque1" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Ataque1
+[2018.03.08-22.26.27:428][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Morir" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Morir
+[2018.03.08-22.26.27:428][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Ataque2" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Ataque2
+[2018.03.08-22.26.27:428][743]LogBlueprint: Warning: [Compiler Base_animacion] Could not find a variable named "Ataque1" in 'Base_C'.
+Make sure 'Base_C' has been compiled for  Obtener Ataque1
+[2018.03.08-22.26.27:430][743]LogBlueprint: Error: [Compiler Base_animacion] La propiedad asociada con  Morir  no se ha encontrado
+[2018.03.08-22.26.27:430][743]LogBlueprint: Error: [Compiler Base_animacion] La propiedad asociada con  Ataque 2  no se ha encontrado
+[2018.03.08-22.26.27:430][743]LogBlueprint: Error: [Compiler Base_animacion] La propiedad asociada con  Ataque 1  no se ha encontrado
+[2018.03.08-22.26.27:432][743]LogBlueprint: Warning: [Compiler Base_animacion] [1601,61] Compile of Base_animacion failed. 3 Fatal Issue(s) 9 Warning(s) [in 41 ms] (/Game/Heroes/Animaciones/Base/Base_animacion.Base_animacion)
+[2018.03.08-22.26.27:445][743]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Heroes/Animaciones/Base/Morir.Morir
+[2018.03.08-22.26.27:445][743]LogAnimationCompression: Recompressing (AnimSequence /Game/Heroes/Animaciones/Base/Morir.Morir) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.26.27:576][743]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Heroes/Animaciones/Base/Boxing.Boxing
+[2018.03.08-22.26.27:576][743]LogAnimationCompression: Recompressing (AnimSequence /Game/Heroes/Animaciones/Base/Boxing.Boxing) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.26.27:577][743]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Heroes/Animaciones/Base/Camina_M1.Camina_M1
+[2018.03.08-22.26.27:577][743]LogAnimationCompression: Recompressing (AnimSequence /Game/Heroes/Animaciones/Base/Camina_M1.Camina_M1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.26.27:578][743]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Heroes/Animaciones/Base/Correr_M1.Correr_M1
+[2018.03.08-22.26.27:578][743]LogAnimationCompression: Recompressing (AnimSequence /Game/Heroes/Animaciones/Base/Correr_M1.Correr_M1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.26.27:604][743]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Heroes/Animaciones/Base/Patada_M1.Patada_M1
+[2018.03.08-22.26.27:605][743]LogAnimationCompression: Recompressing (AnimSequence /Game/Heroes/Animaciones/Base/Patada_M1.Patada_M1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.08-22.26.28:698][868]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.08-22.27.56:978][809]AssetReimport: New page: Outstanding source content changes 12:27:56
+[2018.03.08-22.27.57:382][809]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.403 s
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: 
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\SlowTask.cpp] [Line: 86]
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: Stack: 
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x0000000087632786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000873D123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000873EB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000874AB95E UE4Editor-Core.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C0D5DDB UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C072129 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C045ACF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C0893A6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C073971 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C0F4FD8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C0F6BB0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C3D7AF5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007C3D58C6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x000000007CC84AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x0000000099145A26 UE4Editor.exe!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x0000000099155430 UE4Editor.exe!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000991554AA UE4Editor.exe!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x0000000099162379 UE4Editor.exe!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x0000000099163D57 UE4Editor.exe!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000C2501FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: [Callstack] 0x00000000C47EEFC1 ntdll.dll!UnknownFunction []
+[2018.03.08-22.27.57:382][809]LogOutputDevice: Error: 
+[2018.03.08-22.27.57:387][809]LogStats:                SubmitErrorReport -  0.000 s

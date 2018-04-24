@@ -1,0 +1,803 @@
+﻿Log file open, 03/28/18 20:46:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Pacto_de_Honor
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1102006487) SRandInit(1102006487).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.172036
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin VaRestPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MySQL
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file D:/Git/Pacto_de_HonoRPG/Codigo/Binaries/Win64/UE4Editor-Pacto_de_Honor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestEditorPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MySQL/Binaries/Win64/UE4Editor-MySQL.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.29-01.46.55:529][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-01.46.55:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.29-01.46.55:558][  0]LogInit: Computer: DELL_INSPIRON
+[2018.03.29-01.46.55:559][  0]LogInit: User: Dell
+[2018.03.29-01.46.55:559][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.29-01.46.55:559][  0]LogInit: High frequency timer resolution =3.515628 MHz
+[2018.03.29-01.46.55:560][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.29-01.46.55:560][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.29-01.46.55:560][  0]LogMemory: Process Physical Memory: 275.65 MB used, 275.65 MB peak
+[2018.03.29-01.46.55:560][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2018.03.29-01.46.55:560][  0]LogMemory: Physical Memory: 3322.81 MB used,  4806.76 MB free, 8129.57 MB total
+[2018.03.29-01.46.55:560][  0]LogMemory: Virtual Memory: 682.86 MB used,  4806.76 MB free, 134217728.00 MB total
+[2018.03.29-01.46.55:945][  0]LogInit: Using OS detected language (es-ES).
+[2018.03.29-01.46.55:945][  0]LogInit: Using OS detected locale (es-ES).
+[2018.03.29-01.46.55:950][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.03.29-01.46.56:100][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.29-01.46.56:488][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.29-01.46.56:529][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.29-01.46.56:529][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.29-01.46.56:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.29-01.46.56:531][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.29-01.46.56:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.29-01.46.56:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.29-01.46.56:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.29-01.46.56:536][  0]LogWindows: EnumDisplayDevices:
+[2018.03.29-01.46.56:536][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.29-01.46.56:536][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.29-01.46.56:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.29-01.46.56:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.29-01.46.56:536][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.29-01.46.56:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.29-01.46.56:536][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.29-01.46.56:536][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.29-01.46.56:536][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2018.03.29-01.46.56:556][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.29-01.46.56:577][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.29-01.46.56:627][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/Git/Pacto_de_HonoRPG/Codigo/Intermediate/Shaders/WorkingDirectory/368/).
+[2018.03.29-01.46.56:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/827C0C5F4164BC7C2C7C49A9B67477A6/'.
+[2018.03.29-01.46.56:628][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.29-01.46.57:670][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.29-01.46.57:747][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.29-01.46.57:822][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.29-01.46.57:897][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.29-01.46.57:983][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.29-01.46.58:067][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.29-01.46.58:145][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.29-01.46.58:221][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.29-01.46.58:292][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.29-01.46.58:367][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.29-01.46.58:441][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.29-01.46.58:517][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.29-01.46.58:591][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.29-01.46.58:690][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.29-01.46.58:840][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.29-01.46.58:840][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.29-01.46.58:916][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.29-01.46.58:983][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.29-01.46.59:111][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.29-01.46.59:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.29-01.46.59:223][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.29-01.46.59:315][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.29-01.46.59:398][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.29-01.46.59:524][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.29-01.46.59:525][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.29-01.47.00:267][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.29-01.47.00:331][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.29-01.47.00:332][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.29-01.47.00:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.29-01.47.00:332][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.29-01.47.00:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.29-01.47.00:332][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.29-01.47.00:344][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.29-01.47.00:357][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.29-01.47.00:365][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.29-01.47.00:365][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.29-01.47.00:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-01.47.00:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.29-01.47.00:711][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.29-01.47.01:182][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.29-01.47.01:250][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.29-01.47.01:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.29-01.47.01:250][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.29-01.47.01:250][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.29-01.47.01:250][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.29-01.47.01:277][  0]LogNetVersion: Pacto_de_Honor , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2404482579)
+[2018.03.29-01.47.01:464][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2018.03.29-01.47.01:953][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.038731 seconds
+[2018.03.29-01.47.01:957][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.29-01.47.01:957][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.29-01.47.01:957][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.29-01.47.02:064][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.29-01.47.05:973][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.29-01.47.06:028][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.29-01.47.07:142][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.29-01.47.07:755][  0]SourceControl: El control de código fuente está desactivado
+[2018.03.29-01.47.09:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.29-01.47.10:020][  0]LogOcInput: OculusInput pre-init called
+[2018.03.29-01.47.10:458][  0]LogEngine: Initializing Engine...
+[2018.03.29-01.47.10:460][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.29-01.47.10:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.29-01.47.10:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.29-01.47.10:864][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.29-01.47.10:872][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.47.10:898][  0]LogInit: FAudioDevice initialized.
+[2018.03.29-01.47.11:030][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.29-01.47.11:052][  0]LogInit: Texture streaming: Enabled
+[2018.03.29-01.47.11:230][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.29-01.47.11:437][  0]LogInit: Transaction tracking system initialized
+[2018.03.29-01.47.11:998][  0]BlueprintLog: New page: Cargar el editor
+[2018.03.29-01.47.13:490][  0]LocalizationService: Localization service is disabled
+[2018.03.29-01.47.14:662][  0]LogConsoleResponse: Display: 
+[2018.03.29-01.47.14:854][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.29-01.47.14:854][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.29-01.47.14:854][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.29-01.47.14:894][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/' took 0.05s
+[2018.03.29-01.47.16:705][  0]Cmd: MAP LOAD FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.29-01.47.16:706][  0]LightingResults: New page: Diseñar la iluminación
+[2018.03.29-01.47.16:773][  0]MapCheck: New page: Revisión del mapa
+[2018.03.29-01.47.16:773][  0]LightingResults: New page: Diseñar la iluminación
+[2018.03.29-01.47.17:506][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-01.47.17:576][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.29-01.47.17:587][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.29-01.47.17:701][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114,223ms to complete.
+[2018.03.29-01.47.17:701][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.995
+[2018.03.29-01.47.17:938][  0]LogCollectionManager: Loaded 0 collections in 0.002022 seconds
+[2018.03.29-01.47.18:045][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Collections/' took 0.01s
+[2018.03.29-01.47.18:045][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Developers/Dell/Collections/' took 0.01s
+[2018.03.29-01.47.18:045][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Collections/' took 0.01s
+[2018.03.29-01.47.18:045][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.29-01.47.18:052][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2370 classes and 529 folders.
+[2018.03.29-01.47.18:156][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.29-01.47.18:209][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.29-01.47.18:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.29-01.47.18:400][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.29-01.47.18:403][  0]LogSlate: Took 0.000622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.29-01.47.18:407][  0]LogSlate: Took 0.000549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.29-01.47.18:492][  0]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1).
+[2018.03.29-01.47.18:831][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.29-01.47.18:831][  0]LogLoad: (Engine Initialization) Total time: 26.48 seconds
+[2018.03.29-01.47.18:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.29-01.47.18:831][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.29-01.47.18:841][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.29-01.47.18:861][  0]SourceControl: On branch santiago
+[2018.03.29-01.47.18:861][  0]SourceControl: Your branch is up to date with 'origin/santiago'.
+[2018.03.29-01.47.18:861][  0]SourceControl: Changes not staged for commit:
+[2018.03.29-01.47.18:861][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.29-01.47.18:861][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.29-01.47.18:861][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/Login/Login.uasset
+[2018.03.29-01.47.18:861][  0]SourceControl: Untracked files:
+[2018.03.29-01.47.18:861][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.29-01.47.18:861][  0]SourceControl: 	Codigo/Content/MenuPrincipal/EntarMundo/
+[2018.03.29-01.47.18:861][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.29-01.47.18:861][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.29-01.47.19:062][  3]LogAssetRegistry: Asset discovery search completed in 17.6194 seconds
+[2018.03.29-01.47.19:067][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.29-01.47.19:068][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.03.29-01.47.23:027][473]LogSlate: Took 0.000508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-01.47.48:154][471]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-01.47.48:477][471]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.03.29-01.47.49:110][471]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.29-01.47.49:113][471]LogSlate: Took 0.002237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.29-01.48.22:312][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-01.48.22:312][602]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-01.48.22:317][602]LogPlayLevel: [PlayLevel] Compiling Crear_Heroe before play...
+[2018.03.29-01.48.22:421][602]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2018.03.29-01.48.22:421][602]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (28/3/2018 15:48:22)
+[2018.03.29-01.48.22:421][602]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.29-01.48.22:490][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068768s)
+[2018.03.29-01.48.22:491][602]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.29-01.48.22:491][602]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2018.03.29-01.48.22:491][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.070145s)
+[2018.03.29-01.48.22:510][602]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.48.22:518][602]LogInit: FAudioDevice initialized.
+[2018.03.29-01.48.22:587][602]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-01.48.22:606][602]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.28-20.48.22
+[2018.03.29-01.48.22:609][602]LogWorld: Bringing up level for play took: 0.019874
+[2018.03.29-01.48.22:711][602]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.29-01.48.22:711][602]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-01.48.22:716][602]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,2
+[2018.03.29-01.48.22:717][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-01.48.22:780][602]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.29-01.48.25:853][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-01.48.25:896][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.29-01.48.31:160][423]LogLinker: Warning: No puede encontrar el archivo '/Game/Imagenes/Menulogin'
+[2018.03.29-01.48.31:160][423]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/Imagenes/Menulogin' mientras carga D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset.
+[2018.03.29-01.48.31:160][423]LoadErrors: Error: /Game/MenuPrincipal/EntarMundo/Menu_Login : No puede encontrar el archivo para el activo. /Game/Imagenes/Menulogin
+[2018.03.29-01.48.31:169][423]LogLinker: Warning: No puede encontrar el archivo '/Game/Imagenes/Menulogin'
+[2018.03.29-01.48.31:169][423]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/Imagenes/Menulogin' mientras carga D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset.
+[2018.03.29-01.48.31:169][423]LogLinker: Warning: No puede encontrar el archivo '/Game/Imagenes/Menulogin'
+[2018.03.29-01.48.31:169][423]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/Imagenes/Menulogin' mientras carga D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset.
+[2018.03.29-01.48.31:175][423]LogLinker: Warning: No puede encontrar el archivo '/Game/Imagenes/Menulogin'
+[2018.03.29-01.48.31:176][423]LoadErrors: Error al cargar /Game/Imagenes/Menulogin.Menulogin Referenciado por Image_76
+[2018.03.29-01.48.31:176][423]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/Imagenes/Menulogin' mientras carga D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset.
+[2018.03.29-01.48.31:214][423]LogLinker: Warning: No puede encontrar el archivo '/Game/Imagenes/Menulogin'
+[2018.03.29-01.48.31:214][423]LogLinker: Warning: No puede encontrar el archivo para el activo '/Game/Imagenes/Menulogin' mientras carga D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset.
+[2018.03.29-01.48.31:260][423]LogAIModule: Creating AISystem for world Main
+[2018.03.29-01.48.33:527][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuPrincipal/EntarMundo/Crear_Heroe" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Crear_Heroe.uasset" SILENT=true
+[2018.03.29-01.48.33:779][423]LogSavePackage: Save=162.56ms
+[2018.03.29-01.48.33:779][423]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Crear_Heroe325E9A504075F74B028B5FA2469B590F.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Crear_Heroe.uasset'
+[2018.03.29-01.48.33:781][423]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/EntarMundo/Crear_Heroe.uasset
+[2018.03.29-01.48.33:782][423]Cmd: MAP LOAD FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.29-01.48.33:782][423]LightingResults: New page: Diseñar la iluminación
+[2018.03.29-01.48.33:783][423]LoadErrors: New page: Cargando mapa: Main.umap
+[2018.03.29-01.48.33:785][423]MapCheck: New page: Revisión del mapa
+[2018.03.29-01.48.33:785][423]LightingResults: New page: Diseñar la iluminación
+[2018.03.29-01.48.33:858][423]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.29-01.48.33:885][423]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.29-01.48.33:988][423]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102,485ms to complete.
+[2018.03.29-01.48.33:988][423]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.29-01.48.33:991][423]LogFileHelpers: Loading map 'Main' took 0.211
+[2018.03.29-01.48.36:647][711]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-01.48.36:663][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.48.36:663][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-01.48.36:663][711]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 15:48:36)
+[2018.03.29-01.48.36:663][711]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-01.48.36:664][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000706s)
+[2018.03.29-01.48.36:664][711]LogAIModule: Creating AISystem for world Main
+[2018.03.29-01.48.36:665][711]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2018.03.29-01.48.36:665][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001370s)
+[2018.03.29-01.48.36:682][711]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.48.36:690][711]LogInit: FAudioDevice initialized.
+[2018.03.29-01.48.36:726][711]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-01.48.36:727][711]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-20.48.36
+[2018.03.29-01.48.36:727][711]LogWorld: Bringing up level for play took: 0.000373
+[2018.03.29-01.48.36:728][711]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-01.48.36:735][711]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 0,218
+[2018.03.29-01.48.36:735][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.48.45:694][435]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.48.45:694][435]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.48.45:694][435]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.48.45:694][435]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.16:476][157]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.17:889][282]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.49.17:918][282]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.49.36:813][428]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-01.49.36:831][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.49.36:831][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-01.49.36:832][428]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 15:49:36)
+[2018.03.29-01.49.36:832][428]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-01.49.36:832][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000707s)
+[2018.03.29-01.49.36:833][428]LogAIModule: Creating AISystem for world Main
+[2018.03.29-01.49.36:833][428]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2018.03.29-01.49.36:833][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001295s)
+[2018.03.29-01.49.36:850][428]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.49.36:858][428]LogInit: FAudioDevice initialized.
+[2018.03.29-01.49.36:898][428]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-01.49.36:899][428]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-20.49.36
+[2018.03.29-01.49.36:899][428]LogWorld: Bringing up level for play took: 0.000387
+[2018.03.29-01.49.36:900][428]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-01.49.36:906][428]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 0,389
+[2018.03.29-01.49.36:907][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.49.45:637][299]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.45:637][299]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.45:637][299]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.45:637][299]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.51:262][849]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.49.57:507][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.49.57:535][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.06:660][589]LogSlate: Took 0.001999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.29-01.50.25:367][822]BlueprintLog: New page: Compilar Crear_Heroe
+[2018.03.29-01.50.26:373][937]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-01.50.26:388][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.26:388][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-01.50.26:388][937]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 15:50:26)
+[2018.03.29-01.50.26:389][937]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-01.50.26:389][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000762s)
+[2018.03.29-01.50.26:390][937]LogAIModule: Creating AISystem for world Main
+[2018.03.29-01.50.26:390][937]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2018.03.29-01.50.26:390][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001415s)
+[2018.03.29-01.50.26:407][937]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.50.26:415][937]LogInit: FAudioDevice initialized.
+[2018.03.29-01.50.26:452][937]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-01.50.26:453][937]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-20.50.26
+[2018.03.29-01.50.26:454][937]LogWorld: Bringing up level for play took: 0.000480
+[2018.03.29-01.50.26:455][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-01.50.26:461][937]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main -0,057
+[2018.03.29-01.50.26:461][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.28:782][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.28:809][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.31:399][458]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-01.50.31:415][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.31:415][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-01.50.31:415][458]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 15:50:31)
+[2018.03.29-01.50.31:415][458]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-01.50.31:416][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000658s)
+[2018.03.29-01.50.31:416][458]LogAIModule: Creating AISystem for world Main
+[2018.03.29-01.50.31:416][458]LogPlayLevel: PIE: World Init took: (0.000441s)
+[2018.03.29-01.50.31:416][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001286s)
+[2018.03.29-01.50.31:434][458]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-01.50.31:442][458]LogInit: FAudioDevice initialized.
+[2018.03.29-01.50.31:480][458]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-01.50.31:482][458]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-20.50.31
+[2018.03.29-01.50.31:483][458]LogWorld: Bringing up level for play took: 0.000744
+[2018.03.29-01.50.31:484][458]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-01.50.31:496][458]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 0,978
+[2018.03.29-01.50.31:497][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.50.43:923][642]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.50.43:923][642]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.50.43:923][642]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.50.43:923][642]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-01.50.45:029][754]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 1024
+[2018.03.29-01.50.45:030][754]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MenuPrincipal/EntarMundo/Crear_Heroe.Crear_Heroe_C:Construct
+	Function /Game/MenuPrincipal/EntarMundo/Crear_Heroe.Crear_Heroe_C:ExecuteUbergraph_Crear_Heroe
+
+[2018.03.29-01.51.12:640][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.51.12:669][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-01.53.29:232][892]BlueprintLog: New page: Compilar Crear_Heroe
+[2018.03.29-01.54.15:127][569]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.29-01.54.15:510][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.29-01.54.15:758][569]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0'
+[2018.03.29-01.54.15:758][569]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0'
+[2018.03.29-01.54.16:095][569]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.03.29-02.00.16:754][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuPrincipal/Main' took 0.019
+[2018.03.29-02.00.16:755][ 68]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe] ([1] browsable assets)...
+[2018.03.29-02.00.16:755][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe]
+[2018.03.29-02.00.18:711][ 68]LogSavePackage: Save=130.30ms
+[2018.03.29-02.00.18:711][ 68]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Crear_Heroe_Auto123F0C9B743E8BD72C67C2F8B91F4F850.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto1.uasset'
+[2018.03.29-02.00.18:711][ 68]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto1.uasset
+[2018.03.29-02.00.18:711][ 68]LogFileHelpers: Auto-saving content packages took 1.957
+[2018.03.29-02.06.56:163][424]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-02.06.56:182][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.06.56:182][424]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-02.06.56:199][424]LogPlayLevel: [PlayLevel] Compiling Login before play...
+[2018.03.29-02.06.56:329][424]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2018.03.29-02.06.56:330][424]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 16:06:56)
+[2018.03.29-02.06.56:330][424]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-02.06.56:330][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000746s)
+[2018.03.29-02.06.56:331][424]LogAIModule: Creating AISystem for world Main
+[2018.03.29-02.06.56:331][424]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2018.03.29-02.06.56:331][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001779s)
+[2018.03.29-02.06.56:350][424]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-02.06.56:359][424]LogInit: FAudioDevice initialized.
+[2018.03.29-02.06.56:399][424]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-02.06.56:401][424]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-21.06.56
+[2018.03.29-02.06.56:401][424]LogWorld: Bringing up level for play took: 0.000692
+[2018.03.29-02.06.56:403][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-02.06.56:411][424]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main -0,117
+[2018.03.29-02.06.56:412][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.06.59:030][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.06.59:058][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.07.09:273][451]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-02.07.09:291][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.07.09:291][451]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-02.07.09:306][451]LogPlayLevel: [PlayLevel] Compiling Login before play...
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "prueba" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener prueba
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "Password" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener Password
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "Login" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener Login
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "ErrorText" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener ErrorText
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "ErrorText" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener ErrorText
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "ErrorText" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener ErrorText
+[2018.03.29-02.07.09:323][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "prueba" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener prueba
+[2018.03.29-02.07.09:324][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "Password" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener Password
+[2018.03.29-02.07.09:324][451]LogBlueprint: Warning: [Compiler Login] Could not find a variable named "UserId" in 'Login_C'.
+Make sure 'Login_C' has been compiled for  Obtener UserId
+[2018.03.29-02.07.09:324][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  User Id  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Password  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Prueba  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Error Text  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Error Text  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Error Text  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Login  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Password  no se ha encontrado
+[2018.03.29-02.07.09:325][451]LogBlueprint: Error: [Compiler Login] La propiedad asociada con  Prueba  no se ha encontrado
+[2018.03.29-02.07.09:329][451]LogBlueprint: Warning: [Compiler Login] [1216,97] Compile of Login failed. 9 Fatal Issue(s) 9 Warning(s) [in 25 ms] (/Game/MenuPrincipal/Login/Login.Login)
+[2018.03.29-02.07.09:423][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2018.03.29-02.07.09:423][451]BlueprintLog: Error al compilar el Blueprint Login
+[2018.03.29-02.07.11:870][531]Cmd: TRANSACTION UNDO
+[2018.03.29-02.07.11:871][531]LogEditorTransaction: Undo Eliminar Widget
+[2018.03.29-02.07.12:984][625]Cmd: TRANSACTION UNDO
+[2018.03.29-02.07.12:984][625]LogEditorTransaction: Undo Eliminar Widget
+[2018.03.29-02.07.14:210][731]Cmd: TRANSACTION UNDO
+[2018.03.29-02.07.14:210][731]LogEditorTransaction: Undo Eliminar Widget
+[2018.03.29-02.07.22:314][515]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-02.07.22:334][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.07.22:335][515]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-02.07.22:349][515]LogPlayLevel: [PlayLevel] Compiling Login before play...
+[2018.03.29-02.07.22:483][515]LogPlayLevel: [PlayLevel] Compiling Menu_Login before play...
+[2018.03.29-02.07.22:628][515]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (2 blueprints)
+[2018.03.29-02.07.22:628][515]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 16:07:22)
+[2018.03.29-02.07.22:628][515]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-02.07.22:629][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000773s)
+[2018.03.29-02.07.22:629][515]LogAIModule: Creating AISystem for world Main
+[2018.03.29-02.07.22:630][515]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2018.03.29-02.07.22:630][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001400s)
+[2018.03.29-02.07.22:649][515]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-02.07.22:657][515]LogInit: FAudioDevice initialized.
+[2018.03.29-02.07.22:695][515]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-02.07.22:696][515]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-21.07.22
+[2018.03.29-02.07.22:696][515]LogWorld: Bringing up level for play took: 0.000382
+[2018.03.29-02.07.22:697][515]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-02.07.22:704][515]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 0,176
+[2018.03.29-02.07.22:704][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.07.32:057][244]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.07.32:057][244]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.07.32:057][244]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.07.32:057][244]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.07.35:356][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.07.35:389][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.10.34:690][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuPrincipal/Main' took 0.017
+[2018.03.29-02.10.34:691][510]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/Login/Login] ([1] browsable assets)...
+[2018.03.29-02.10.34:692][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/Login/Login]
+[2018.03.29-02.10.34:692][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuPrincipal/Login/Login" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.03.29-02.10.34:803][510]LogSavePackage: Save=108.65ms
+[2018.03.29-02.10.34:803][510]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Login_Auto2465FC4BC4328DC6CCF4940B836C34891.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto2.uasset'
+[2018.03.29-02.10.34:804][510]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto2.uasset
+[2018.03.29-02.10.34:804][510]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Menu_Login] ([1] browsable assets)...
+[2018.03.29-02.10.34:804][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Menu_Login]
+[2018.03.29-02.10.36:911][510]LogSavePackage: Save=2105.31ms
+[2018.03.29-02.10.36:911][510]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Menu_Login_Auto260A3A3714E690CD6ADCC3989191004D4.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto2.uasset'
+[2018.03.29-02.10.36:912][510]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto2.uasset
+[2018.03.29-02.10.36:912][510]LogFileHelpers: Auto-saving content packages took 2.221
+[2018.03.29-02.27.42:717][762]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-02.27.42:738][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.27.42:739][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-02.27.42:739][762]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 16:27:42)
+[2018.03.29-02.27.42:739][762]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-02.27.42:740][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000817s)
+[2018.03.29-02.27.42:740][762]LogAIModule: Creating AISystem for world Main
+[2018.03.29-02.27.42:740][762]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2018.03.29-02.27.42:740][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001584s)
+[2018.03.29-02.27.42:762][762]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-02.27.42:771][762]LogInit: FAudioDevice initialized.
+[2018.03.29-02.27.42:811][762]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-02.27.42:814][762]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-21.27.42
+[2018.03.29-02.27.42:815][762]LogWorld: Bringing up level for play took: 0.001146
+[2018.03.29-02.27.42:818][762]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-02.27.42:833][762]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 0,297
+[2018.03.29-02.27.42:834][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.27.45:444][963]LogWindows: LaunchURL http://pactodehonorpg.com/Registro.php
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.01:613][487]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.29.11:151][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.29.11:180][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.43.22:567][271]LogEditorTransaction: Undo Eliminar Widget
+[2018.03.29-02.43.23:396][339]LogEditorTransaction: Undo Delete current selection
+[2018.03.29-02.43.23:866][381]LogEditorTransaction: Undo Change Text Pin Value
+[2018.03.29-02.43.24:275][418]LogEditorTransaction: Undo Comment Bubble Visibility
+[2018.03.29-02.43.24:665][453]LogEditorTransaction: Undo Crear enlace del Pin
+[2018.03.29-02.43.25:065][489]LogEditorTransaction: Undo Paste clipboard contents
+[2018.03.29-02.44.04:276][642]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuPrincipal/Main' took 0.041
+[2018.03.29-02.44.04:278][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe] ([1] browsable assets)...
+[2018.03.29-02.44.04:278][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe]
+[2018.03.29-02.44.04:451][642]LogSavePackage: Save=131.02ms
+[2018.03.29-02.44.04:451][642]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Crear_Heroe_Auto3F126EF184097E0EFCD2185B1B11914F3.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto3.uasset'
+[2018.03.29-02.44.04:452][642]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto3.uasset
+[2018.03.29-02.44.04:453][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Menu_Login] ([1] browsable assets)...
+[2018.03.29-02.44.04:453][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Menu_Login]
+[2018.03.29-02.44.04:976][642]LogSavePackage: Save=518.14ms
+[2018.03.29-02.44.04:976][642]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Menu_Login_Auto3ACEC3C3E47BBC54220635980DAB7CADE.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto3.uasset'
+[2018.03.29-02.44.04:976][642]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto3.uasset
+[2018.03.29-02.44.04:976][642]LogFileHelpers: Auto-saving content packages took 0.699
+[2018.03.29-02.48.09:622][713]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.29-02.48.09:647][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.48.09:647][713]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-02.48.09:653][713]LogPlayLevel: [PlayLevel] Compiling Crear_Heroe before play...
+[2018.03.29-02.48.09:798][713]LogPlayLevel: [PlayLevel] Compiling Menu_Login before play...
+[2018.03.29-02.48.09:983][713]LogPlayLevel: PlayLevel: Blueprint regeneration took 335 ms (2 blueprints)
+[2018.03.29-02.48.09:983][713]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/3/2018 16:48:09)
+[2018.03.29-02.48.09:983][713]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.03.29-02.48.09:984][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000779s)
+[2018.03.29-02.48.09:984][713]LogAIModule: Creating AISystem for world Main
+[2018.03.29-02.48.09:984][713]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2018.03.29-02.48.09:985][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001828s)
+[2018.03.29-02.48.10:005][713]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.29-02.48.10:015][713]LogInit: FAudioDevice initialized.
+[2018.03.29-02.48.10:058][713]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.29-02.48.10:060][713]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.03.28-21.48.10
+[2018.03.29-02.48.10:061][713]LogWorld: Bringing up level for play took: 0.001025
+[2018.03.29-02.48.10:063][713]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/MenuPrincipal/UEDPIE_0_Main.Main:PersistentLevel.Base_M_Blueprint_C_0.CharacterMesh0'
+[2018.03.29-02.48.10:075][713]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main -0,469
+[2018.03.29-02.48.10:076][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.48.23:577][442]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.48.23:577][442]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.48.23:578][442]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.48.23:578][442]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.03.29-02.48.36:785][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.48.36:816][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.03.29-02.54.32:196][635]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuPrincipal/Main' took 0.021
+[2018.03.29-02.54.32:198][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe] ([1] browsable assets)...
+[2018.03.29-02.54.32:198][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Crear_Heroe]
+[2018.03.29-02.54.32:356][635]LogSavePackage: Save=154.48ms
+[2018.03.29-02.54.32:356][635]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Crear_Heroe_Auto4C2DADE4C41B11BB5AB43BE9D67A0FDAE.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto4.uasset'
+[2018.03.29-02.54.32:357][635]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Crear_Heroe_Auto4.uasset
+[2018.03.29-02.54.32:358][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/Login/Login] ([1] browsable assets)...
+[2018.03.29-02.54.32:358][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/Login/Login]
+[2018.03.29-02.54.32:358][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuPrincipal/Login/Login" FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.03.29-02.54.32:481][635]LogSavePackage: Save=120.25ms
+[2018.03.29-02.54.32:481][635]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Login_Auto4090084B942CF6585A2AA6099BFA27D1F.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto4.uasset'
+[2018.03.29-02.54.32:482][635]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/Login/Login_Auto4.uasset
+[2018.03.29-02.54.32:482][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuPrincipal/EntarMundo/Menu_Login] ([1] browsable assets)...
+[2018.03.29-02.54.32:482][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuPrincipal/EntarMundo/Menu_Login]
+[2018.03.29-02.54.32:720][635]LogSavePackage: Save=234.92ms
+[2018.03.29-02.54.32:720][635]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Menu_Login_Auto4B5805DA54DC21096DEE1C9A408B24B35.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto4.uasset'
+[2018.03.29-02.54.32:720][635]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Autosaves/Game/MenuPrincipal/EntarMundo/Menu_Login_Auto4.uasset
+[2018.03.29-02.54.32:720][635]LogFileHelpers: Auto-saving content packages took 0.523
+[2018.03.29-02.56.53:151][ 63]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.03.29-02.56.53:878][ 63]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.727 s
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: 
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 568]
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: Object in KismetInspector is invalid, see TTP 281915
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: Stack: 
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x00000000103E2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000001018123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000001019B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x00000000FBBD1FD8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x00000000FBBCBBD6 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD204 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F708F20 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCABF39 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC06E UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F70D281 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:878][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F70D281 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F70D281 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCABF39 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC06E UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F708F20 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCABF39 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC06E UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F70D281 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCABF39 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC06E UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCADBE6 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC06E UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCABF39 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAB9F4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAC10A UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000BCAD2CF UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F4B306A UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F4B4098 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F4E7940 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F4B4140 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F50D867 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000000F50C953 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x00000000B49269CA UE4Editor.exe!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x00000000B4935430 UE4Editor.exe!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x00000000B49354AA UE4Editor.exe!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x00000000B4942379 UE4Editor.exe!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x00000000B4943D57 UE4Editor.exe!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x0000000054441FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: [Callstack] 0x000000005588EFC1 ntdll.dll!UnknownFunction []
+[2018.03.29-02.56.53:879][ 63]LogOutputDevice: Error: 
+[2018.03.29-02.56.53:890][ 63]LogStats:                SubmitErrorReport -  0.000 s
