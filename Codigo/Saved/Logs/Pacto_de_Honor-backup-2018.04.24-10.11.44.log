@@ -1,0 +1,694 @@
+﻿Log file open, 04/24/18 10:10:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Pacto_de_Honor
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1730733008) SRandInit(1730733008).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177492
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin VaRestPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MySQL
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file D:/Git/Pacto_de_HonoRPG/Codigo/Binaries/Win64/UE4Editor-Pacto_de_Honor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestEditorPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MySQL/Binaries/Win64/UE4Editor-MySQL.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.24-15.10.21:607][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-15.10.21:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.24-15.10.21:614][  0]LogInit: Computer: DELL_INSPIRON
+[2018.04.24-15.10.21:614][  0]LogInit: User: Dell
+[2018.04.24-15.10.21:614][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.24-15.10.21:614][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2018.04.24-15.10.21:614][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.04.24-15.10.21:614][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-15.10.21:614][  0]LogMemory: Process Physical Memory: 272.20 MB used, 272.20 MB peak
+[2018.04.24-15.10.21:614][  0]LogMemory: Process Virtual Memory: 270.04 MB used, 270.04 MB peak
+[2018.04.24-15.10.21:614][  0]LogMemory: Physical Memory: 4362.86 MB used,  3766.71 MB free, 8129.57 MB total
+[2018.04.24-15.10.21:614][  0]LogMemory: Virtual Memory: 682.33 MB used,  3766.71 MB free, 134217728.00 MB total
+[2018.04.24-15.10.21:867][  0]LogInit: Using OS detected language (es-ES).
+[2018.04.24-15.10.21:867][  0]LogInit: Using OS detected locale (es-ES).
+[2018.04.24-15.10.21:870][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.04.24-15.10.21:994][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.24-15.10.22:355][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.24-15.10.22:385][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.04.24-15.10.22:385][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.24-15.10.22:388][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.24-15.10.22:388][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.24-15.10.22:388][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.24-15.10.22:393][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.24-15.10.22:393][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.24-15.10.22:393][  0]LogWindows: EnumDisplayDevices:
+[2018.04.24-15.10.22:393][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.04.24-15.10.22:393][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.24-15.10.22:393][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.24-15.10.22:393][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.24-15.10.22:393][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.24-15.10.22:393][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.04.24-15.10.22:394][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.24-15.10.22:394][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.24-15.10.22:394][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2018.04.24-15.10.22:413][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.24-15.10.22:433][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.24-15.10.22:480][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Git/Pacto_de_HonoRPG/Codigo/Intermediate/Shaders/WorkingDirectory/12444/).
+[2018.04.24-15.10.22:480][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/6F3E7FC0407A53C2EDF06E8E03E2274E/'.
+[2018.04.24-15.10.22:480][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.24-15.10.23:466][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.24-15.10.23:546][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.24-15.10.23:631][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.24-15.10.23:719][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.24-15.10.23:798][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.24-15.10.23:877][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.24-15.10.23:957][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.24-15.10.24:038][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.24-15.10.24:107][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.24-15.10.24:185][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.24-15.10.24:264][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.24-15.10.24:348][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.24-15.10.24:428][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.24-15.10.24:508][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.24-15.10.24:677][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.24-15.10.24:677][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.24-15.10.24:766][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.24-15.10.24:835][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.24-15.10.24:966][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.24-15.10.25:004][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.24-15.10.25:087][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.24-15.10.25:161][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.24-15.10.25:238][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.24-15.10.25:322][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.24-15.10.25:322][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.24-15.10.26:093][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.24-15.10.26:160][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.24-15.10.26:160][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.24-15.10.26:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.24-15.10.26:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.24-15.10.26:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.24-15.10.26:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.24-15.10.26:175][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.24-15.10.26:187][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.24-15.10.26:195][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.24-15.10.26:195][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.24-15.10.26:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-15.10.26:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-15.10.26:545][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-15.10.27:012][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.24-15.10.27:084][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.24-15.10.27:084][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.24-15.10.27:084][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.24-15.10.27:084][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.24-15.10.27:084][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.24-15.10.27:111][  0]LogNetVersion: Pacto_de_Honor , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2404482579)
+[2018.04.24-15.10.27:290][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.04.24-15.10.27:794][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.041949 seconds
+[2018.04.24-15.10.27:798][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.24-15.10.27:798][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.24-15.10.27:798][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.24-15.10.27:884][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.24-15.10.31:872][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.24-15.10.31:931][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.24-15.10.33:080][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.24-15.10.33:734][  0]SourceControl: El control de código fuente está desactivado
+[2018.04.24-15.10.35:637][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.24-15.10.36:097][  0]LogOcInput: OculusInput pre-init called
+[2018.04.24-15.10.36:503][  0]LogEngine: Initializing Engine...
+[2018.04.24-15.10.36:506][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.24-15.10.36:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-15.10.36:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-15.10.36:905][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.24-15.10.36:913][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.24-15.10.36:988][  0]LogInit: FAudioDevice initialized.
+[2018.04.24-15.10.37:079][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.24-15.10.37:094][  0]LogInit: Texture streaming: Enabled
+[2018.04.24-15.10.37:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.24-15.10.37:264][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={94BC8EB2-4577-6E97-F73D-F9AC284735F2}
+[2018.04.24-15.10.37:501][  0]LogInit: Transaction tracking system initialized
+[2018.04.24-15.10.38:071][  0]BlueprintLog: New page: Cargar el editor
+[2018.04.24-15.10.39:651][  0]LocalizationService: Localization service is disabled
+[2018.04.24-15.10.40:920][  0]LogConsoleResponse: Display: 
+[2018.04.24-15.10.41:108][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.24-15.10.41:108][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.24-15.10.41:108][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.24-15.10.42:134][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/' took 0.06s
+[2018.04.24-15.10.43:020][  0]Cmd: MAP LOAD FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/MenuPrincipal/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-15.10.43:020][  0]LightingResults: New page: Diseñar la iluminación
+[2018.04.24-15.10.43:088][  0]MapCheck: New page: Revisión del mapa
+[2018.04.24-15.10.43:088][  0]LightingResults: New page: Diseñar la iluminación
+[2018.04.24-15.10.43:139][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque1' para  InputAction Ataque1
+[2018.04.24-15.10.43:139][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque2' para  InputAction Ataque2
+[2018.04.24-15.10.43:144][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] [0024,56] Compile of Base_H_Blueprint successful, but with 2 Warning(s) [in 11 ms] (/Game/Heroes/Base/Base_H_Blueprint.Base_H_Blueprint)
+[2018.04.24-15.10.43:419][  0]LogAIModule: Creating AISystem for world Main
+[2018.04.24-15.10.43:420][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-15.10.43:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-15.10.43:517][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88,569ms to complete.
+[2018.04.24-15.10.43:517][  0]LogFileHelpers: Loading map 'Main' took 0.498
+[2018.04.24-15.10.43:677][  0]LogCollectionManager: Loaded 0 collections in 0.001580 seconds
+[2018.04.24-15.10.43:784][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/Collections/' took 0.01s
+[2018.04.24-15.10.43:784][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Developers/Dell/Collections/' took 0.01s
+[2018.04.24-15.10.43:784][  0]LogFileCache: Scanning file cache for directory 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/Collections/' took 0.01s
+[2018.04.24-15.10.43:784][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.24-15.10.43:791][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2370 classes and 529 folders.
+[2018.04.24-15.10.43:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.24-15.10.43:950][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.24-15.10.44:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.24-15.10.44:081][  0]LogSlate: Took 0.000503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-15.10.44:084][  0]LogSlate: Took 0.000916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.24-15.10.44:093][  0]LogSlate: Took 0.001406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.24-15.10.44:183][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.24-15.10.44:390][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.24-15.10.44:390][  0]LogLoad: (Engine Initialization) Total time: 25.80 seconds
+[2018.04.24-15.10.44:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.24-15.10.44:390][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.24-15.10.44:399][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.24-15.10.44:415][  0]SourceControl: On branch Camilo
+[2018.04.24-15.10.44:415][  0]SourceControl: Your branch is up to date with 'origin/Camilo'.
+[2018.04.24-15.10.44:415][  0]SourceControl: Changes to be committed:
+[2018.04.24-15.10.44:416][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.04.24-15.10.44:416][  0]SourceControl: 	deleted:    Codigo/Config/parcial22.PNG
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/Imagenes/Menulogin.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/Imagenes/Mona.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/Imagenes/mono.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/EntarMundo/Menu_Login.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/Login/Login.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/Main.umap
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/IdleSentado_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Idle_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/Levantando_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	deleted:    Codigo/Content/NPCs/Vampiro/Levantando_Vampiro_Anim_Montage.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Levantandose_1D.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Levantandose_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	deleted:    Codigo/Content/NPCs/Vampiro/Sentado_1D.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/Sentado_Vampiro_Anim.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Sentandose_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/VampiroAnimBlueprint.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/VampiroAnimacionBlueprint.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	new file:   Codigo/Content/NPCs/Vampiro/Vampiro_blueprint.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: Changes not staged for commit:
+[2018.04.24-15.10.44:416][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.04.24-15.10.44:416][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/Heroes/Heroe.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/Imagenes/CrearPj.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/Imagenes/Crearpj.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/Login/InstanciasIniciales.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/IdleSentado_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/Idle_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/Levantandose_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Vampiro/Sentandose_Vampiro.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap.umap
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap_BuiltData.uasset
+[2018.04.24-15.10.44:416][  0]SourceControl: 	modified:   Codigo/Content/ThirdPersonBPModel/Maps/ThirdPersonBP/Maps/ThirdPersonExampleMapModel.umap
+[2018.04.24-15.10.44:416][  0]SourceControl: Untracked files:
+[2018.04.24-15.10.44:416][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.24-15.10.44:416][  0]SourceControl: 	Codigo/Content/AssetsDD/
+[2018.04.24-15.10.44:416][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.24-15.10.44:457][  0]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.24-15.10.44:603][  5]LogAssetRegistry: Asset discovery search completed in 17.3356 seconds
+[2018.04.24-15.10.44:610][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.24-15.10.44:610][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
+[2018.04.24-15.10.54:429][181]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.24-15.10.54:815][181]LogBlueprint: Warning: [Compiler Base_M_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque1' para  InputAction Ataque1
+[2018.04.24-15.10.54:816][181]LogBlueprint: Warning: [Compiler Base_M_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque2' para  InputAction Ataque2
+[2018.04.24-15.10.54:868][181]LogBlueprint: Warning: [Compiler Tigre_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque1' para  InputAction Ataque1
+[2018.04.24-15.10.54:869][181]LogBlueprint: Warning: [Compiler Tigre_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque2' para  InputAction Ataque2
+[2018.04.24-15.10.54:949][181]LogBlueprint: Warning: [Compiler Base_M_Blueprint] [0036,36] Compile of Base_M_Blueprint successful, but with 2 Warning(s) [in 229 ms] (/Game/Heroes/Base/Base_M_Blueprint.Base_M_Blueprint)
+[2018.04.24-15.10.54:949][181]LogBlueprint: Warning: [Compiler Tigre_Blueprint] [0036,36] Compile of Tigre_Blueprint successful, but with 2 Warning(s) [in 229 ms] (/Game/Heroes/Tigre/Tigre_Blueprint.Tigre_Blueprint)
+[2018.04.24-15.10.55:407][181]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-15.10.56:016][181]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.24-15.10.56:095][181]Cmd: MAP LOAD FILE="D:/Git/Pacto_de_HonoRPG/Codigo/Content/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-15.10.56:095][181]LightingResults: New page: Diseñar la iluminación
+[2018.04.24-15.10.56:096][181]LoadErrors: New page: Cargando mapa: ThirdPersonExampleMap.umap
+[2018.04.24-15.10.56:096][181]MapCheck: New page: Revisión del mapa
+[2018.04.24-15.10.56:096][181]LightingResults: New page: Diseñar la iluminación
+[2018.04.24-15.10.56:126][181]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-15.10.56:154][181]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-15.10.56:265][181]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111,571ms to complete.
+[2018.04.24-15.10.56:265][181]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.171
+[2018.04.24-15.11.02:407][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (trn_Candelabra2)
+[2018.04.24-15.11.10:876][665]LogSavePackage: Save=1296.06ms
+[2018.04.24-15.11.10:876][665]LogSavePackage: Moving 'D:/Git/Pacto_de_HonoRPG/Codigo/Saved/ThirdPersonExampleMap23DC0E8B4F9A539FC08F2FA9F84C6537.tmp' to 'D:/Git/Pacto_de_HonoRPG/Codigo/Content/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap.umap'
+[2018.04.24-15.11.10:879][665]LogSavePackage: Display: Finished SavePackage D:/Git/Pacto_de_HonoRPG/Codigo/Content/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap.umap
+[2018.04.24-15.11.10:896][665]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.501
+[2018.04.24-15.11.11:285][711]MapCheck: New page: Revisión del mapa
+[2018.04.24-15.11.11:294][711]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.24-15.11.11:294][711]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/4/temp.0A7F9D5B42506A13FBA3B08D7A081610 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/4/temp.0A7F9D5B42506A13FBA3B08D7A081610!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/4/temp.D24B8DC246CA9783A937DAB7EC32128B (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/4/temp.D24B8DC246CA9783A937DAB7EC32128B!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_DB151A2F4A569CF8990FFAA2671AE60A__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/temp.5710699F440B7F82D4F494BE73FE6F41 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/temp.5710699F440B7F82D4F494BE73FE6F41!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/temp.B5A2C57349E0537FE865DAB7FAF16698 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/temp.B5A2C57349E0537FE865DAB7FAF16698!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_9F9F9A3A4586AB9CE23EDF87023C93FA__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/temp.4364EF314E1FF375089CA78D3F5F0625 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/temp.4364EF314E1FF375089CA78D3F5F0625!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/temp.C84707E04F676C6EB1065CB3223295DB (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/temp.C84707E04F676C6EB1065CB3223295DB!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_CBEEE0D144C7756CB586EF9B71B8F5FF__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/8/temp.EA6F98124159F09DF0F0FAA26C947F2A (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/8/temp.EA6F98124159F09DF0F0FAA26C947F2A!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/8/temp.974674544B3AC66C9EAF98BDFE5B87DE (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/8/temp.974674544B3AC66C9EAF98BDFE5B87DE!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_990377AA447130E071346C91AA6A3C4E__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/0/temp.3AE20BD24489F3BEC41001954211B8B2 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/0/temp.3AE20BD24489F3BEC41001954211B8B2!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/0/temp.FA41802640689B5A66E6CFAAB92B19DC (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/0/temp.FA41802640689B5A66E6CFAAB92B19DC!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_E29C5E064B246BE2E6DB05A44AC2CC16__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/6/temp.434A692243272DC40E4029924C9701FA (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/6/temp.434A692243272DC40E4029924C9701FA!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/6/temp.CDF670054ED4050FB66AB59EBDA31496 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/6/temp.CDF670054ED4050FB66AB59EBDA31496!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_553EFEE64B0FAD615F40649A4F79D958__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/3/temp.9A7BA4054336AC1DA71D97B584C60E18 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/3/temp.9A7BA4054336AC1DA71D97B584C60E18!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/3/temp.47A1B2AD461BC302FCFFA3A5BEC664FB (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/3/temp.47A1B2AD461BC302FCFFA3A5BEC664FB!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_57952A654BD765AEC7BC289B0DD231FF__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/0/temp.63C0635E4E4282BAEF81CC9838F5BB4D (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/0/temp.63C0635E4E4282BAEF81CC9838F5BB4D!
+[2018.04.24-15.11.37:170][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/0/temp.A87E6B4E4AB63613C034A3B53E596F17 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/0/temp.A87E6B4E4AB63613C034A3B53E596F17!
+[2018.04.24-15.11.37:170][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_627121964A857770A0759FB38E09F35A__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/1/temp.A62D2722445AB2A24ACF18BC73BD6F2A (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/1/temp.A62D2722445AB2A24ACF18BC73BD6F2A!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/1/temp.4CD44B8A4D320555465F569056C28BC3 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/1/temp.4CD44B8A4D320555465F569056C28BC3!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_843BF53C4174ACC287689DBC8B3658E3__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/temp.B48AFBB841711DCE8B5B20AC078596CD (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/temp.B48AFBB841711DCE8B5B20AC078596CD!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/temp.7849B1134643587E2C36F8BBB54947D4 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/temp.7849B1134643587E2C36F8BBB54947D4!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_EA62A2B644A2C5F487D41C8E373A33FC__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/5/temp.F4DB9CFD4CC779F875BB51ADE1A795C3 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/5/temp.F4DB9CFD4CC779F875BB51ADE1A795C3!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/5/temp.EF21D99B468CE023AAD24CA706D692FD (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/5/temp.EF21D99B468CE023AAD24CA706D692FD!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_4874E21543458D9435E867B712F204D7__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/7/temp.570BCAC34BB8AEAB8DC609B1099E17B0 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/7/temp.570BCAC34BB8AEAB8DC609B1099E17B0!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/7/temp.147E5E144680F0C14A873CA1603B93AD (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/7/temp.147E5E144680F0C14A873CA1603B93AD!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_8E82DD9B426ADE2D613D05874CC042CD__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/2/temp.AC28DCA341D6F78A0CD0E299AC34CE76 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/2/temp.AC28DCA341D6F78A0CD0E299AC34CE76!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/2/temp.4EDACD274AA38FC656655781BF1259FE (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/2/temp.4EDACD274AA38FC656655781BF1259FE!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_4DACFD8D445E9D6169F056A64D8CDAD6__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/2/temp.991E69F84442796409C37CAF0820400F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/2/temp.991E69F84442796409C37CAF0820400F!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/2/temp.5FF94B9943314CC64EB16CA5D81402E3 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/2/temp.5FF94B9943314CC64EB16CA5D81402E3!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_416C55FE436D4242699989B0D2C7C2CC__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/1/temp.27E644B94E4911A870405DA113710112 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/1/temp.27E644B94E4911A870405DA113710112!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/1/temp.70BB52714D981AE3041D09AB24C14820 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/1/temp.70BB52714D981AE3041D09AB24C14820!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_95BB64E04E0656751BD9E2A5299A7E45__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/1/temp.9355C9EF4114D0E66A27A48375242F72 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/1/temp.9355C9EF4114D0E66A27A48375242F72!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/1/temp.12428FAB4B85A238D17C86A3676B3547 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/1/temp.12428FAB4B85A238D17C86A3676B3547!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_9C84D9CC48624DF0593936A4F758CC69__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/8/temp.35C706574F84F36F5D0FEDA857F8D3CF (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/8/temp.35C706574F84F36F5D0FEDA857F8D3CF!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/8/temp.4A3A385A455DB637ECB9C7A36EC155CF (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/8/temp.4A3A385A455DB637ECB9C7A36EC155CF!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_24C6BF9940AD799A9D9C688221289CF3__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/5/temp.BA08BC0F496DAA55C30315A441E5C75F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/5/temp.BA08BC0F496DAA55C30315A441E5C75F!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/5/temp.93C489324308FAAC82C3A38E24B689A7 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/5/temp.93C489324308FAAC82C3A38E24B689A7!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_2666D9F8454F154FC5DFAFA5B02901BE__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/5/temp.CB6650EF48E7816595C63FAFA5C40B06 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/5/temp.CB6650EF48E7816595C63FAFA5C40B06!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/5/temp.5AAEA53F4501FD1E97B925BEDF8C212D (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/5/temp.5AAEA53F4501FD1E97B925BEDF8C212D!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_EE5C54FE4EC95FE26E7BB0B7EE9F7483__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/5/temp.7D9681AC4B857F263C88C1A27C7476B0 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/5/temp.7D9681AC4B857F263C88C1A27C7476B0!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/5/temp.156B818343EDC85348BA6CA30C38091F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/5/temp.156B818343EDC85348BA6CA30C38091F!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_76C5A544458B21942710A8A7BF0BA83D__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/temp.A9C59F6A4DA17C46962CA39DF84AC58F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/temp.A9C59F6A4DA17C46962CA39DF84AC58F!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/temp.01E206DA4BA8061F655D509EC482EF9C (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/temp.01E206DA4BA8061F655D509EC482EF9C!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_23F9A76D4362167EE25C1683117F2B3F__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/temp.0FECF6FC427CDDDC094420997E484595 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/temp.0FECF6FC427CDDDC094420997E484595!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/temp.FB39AFA7423492217BE5899E4454BA98 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/9/temp.FB39AFA7423492217BE5899E4454BA98!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_3A6F67EE4ACF7A9AB46503AB08C052E4__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/1/temp.082E8C3A4FBAC664D7FAC9AF5E6B99C1 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/1/temp.082E8C3A4FBAC664D7FAC9AF5E6B99C1!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/1/temp.341DBB45457B6381EEDD44B560563166 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/1/temp.341DBB45457B6381EEDD44B560563166!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_4EC34C81474237F5ED88BC89FB67201D__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/temp.6A2B27D0419FF335F288F3984B6A2CFF (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/temp.6A2B27D0419FF335F288F3984B6A2CFF!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/temp.B86BB3634432944157DB2399F6C75915 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/temp.B86BB3634432944157DB2399F6C75915!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_4830E77E4C1B6917A2090CA1169EBE03__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/temp.E8B903E3487E600F3B11ED8F764A9A9A (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/temp.E8B903E3487E600F3B11ED8F764A9A9A!
+[2018.04.24-15.11.37:171][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/temp.A425D25D42EE515A6F743B8975ACD9F1 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/1/temp.A425D25D42EE515A6F743B8975ACD9F1!
+[2018.04.24-15.11.37:171][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_FD4DB7F14F5D86D5E93D44A4E0082116__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/8/temp.35FD0A93419BBB1C6D01DEB613AFE6A7 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/8/temp.35FD0A93419BBB1C6D01DEB613AFE6A7!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/8/temp.20AC865E40E7C23004B89C81E66462B9 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/8/temp.20AC865E40E7C23004B89C81E66462B9!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_5BC61BA84FB9423F414F1E928D43871B__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/temp.184DEEBE4B12522C8BC698A8C4935516 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/temp.184DEEBE4B12522C8BC698A8C4935516!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/temp.317B988243F14CCC45A663886DBC2B81 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/temp.317B988243F14CCC45A663886DBC2B81!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_0DCF226747BE150A1E3A379C2560D8B8__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/6/temp.7773990C4400A616699A3ABCD1E5E574 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/6/temp.7773990C4400A616699A3ABCD1E5E574!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/6/temp.B585A138470D996DACE3B0A6199A6397 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/6/temp.B585A138470D996DACE3B0A6199A6397!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_70A5ADB44C1CD701DCF7849F1F27407E__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/1/temp.55C339DD42DA53D2883D52AFAD9CC00D (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/1/temp.55C339DD42DA53D2883D52AFAD9CC00D!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/1/temp.BDE1FC804275CF79910AEC966233E042 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/1/temp.BDE1FC804275CF79910AEC966233E042!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_A61A4D8B4DC0225DCCEF35994B569A7F__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.E9134DBB4C8AD4F4BD65BAAFD6280CFE (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.E9134DBB4C8AD4F4BD65BAAFD6280CFE!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.BB1BF98143EDC4985E812F8040659DD7 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/temp.BB1BF98143EDC4985E812F8040659DD7!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_587CEE1F4ED0351DD7F30FAB361CC9C9__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/6/temp.43FF47A44BD581F19872978CB0B18BE4 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/6/temp.43FF47A44BD581F19872978CB0B18BE4!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/6/temp.355FFA84482E6BC82FF4DE87A4B0CB07 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/6/temp.355FFA84482E6BC82FF4DE87A4B0CB07!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_12877DE1458C18586036B885CFE84291__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/8/temp.5665738E489100ED90673B8332597F79 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/8/temp.5665738E489100ED90673B8332597F79!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/8/temp.74EFF21A48D7B8E7CB11EAB97EBC85E2 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/8/temp.74EFF21A48D7B8E7CB11EAB97EBC85E2!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_A2B854D4422A10B920205195D05E582E__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/6/temp.4179CFC2489DF0B4610FE29A5094C281 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/6/temp.4179CFC2489DF0B4610FE29A5094C281!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/6/temp.E0175DFF435F8D9874A95184808795F3 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/6/temp.E0175DFF435F8D9874A95184808795F3!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_DBAB601A4D167A84CD3AAB8392C22FBE__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/3/temp.68F6C55D4401872568124785208902DF (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/3/temp.68F6C55D4401872568124785208902DF!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/3/temp.7A64BDDC4098E5F1A730F6B5772B7B7F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/3/temp.7A64BDDC4098E5F1A730F6B5772B7B7F!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_8C70DCBE4AF5D75FC6A502ADCDE44DC7__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/6/temp.BF0AB06B4A7A05D8D233918CA4318C6F (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/6/temp.BF0AB06B4A7A05D8D233918CA4318C6F!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/6/temp.B9020DB341DF63C9ABA091A1DCF6F62B (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/6/temp.B9020DB341DF63C9ABA091A1DCF6F62B!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_B2B47DB24E0BF31F6A15EA8D9D544018__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/0/temp.686C3CE14817F461FCE2B6A29728D298 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/0/temp.686C3CE14817F461FCE2B6A29728D298!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/0/temp.E612608F43E571FE12EF75B43A2A20B1 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/4/0/temp.E612608F43E571FE12EF75B43A2A20B1!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_78FEBF0B4EAD0E8E505F989538927D33__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.8D0021294BFD730301324BB1A0A0B6F2 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.8D0021294BFD730301324BB1A0A0B6F2!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.D1201CEE4D6478E80F99F09491035C4D (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/2/temp.D1201CEE4D6478E80F99F09491035C4D!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_77933E694AC2F8C1DDF13E8B19097873__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/0/temp.16E3B1A84F8CA06CDCDF4FB9351DA1B5 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/0/temp.16E3B1A84F8CA06CDCDF4FB9351DA1B5!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/0/temp.43E0780943C0EF0E17E40EAFAE16A916 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/0/temp.43E0780943C0EF0E17E40EAFAE16A916!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_6AA7EB9C462B0B52C7F8B79AE3E6AB79__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/6/temp.8E8BF9E548666663A95F85BE12D9122E (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/6/temp.8E8BF9E548666663A95F85BE12D9122E!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/6/temp.79A0DD9D430C70B4D60560ADA9AD1E26 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/6/temp.79A0DD9D430C70B4D60560ADA9AD1E26!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_4A75F08E470AA54AB9F32796243EAB32__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/5/temp.FDCD752E4C59CD23FEDD3FB4E9A6ED09 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/5/temp.FDCD752E4C59CD23FEDD3FB4E9A6ED09!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/5/temp.E52CA0244F55B4823CE07EAB91640882 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/5/temp.E52CA0244F55B4823CE07EAB91640882!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_7BD11A904BC9C7747375D3B9B7EA5DB0__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.5EF939B04A65B2D93AA35892DA2BB0A6 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.5EF939B04A65B2D93AA35892DA2BB0A6!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.79046B6543CD5FA096B99DBE0F7B73A6 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/7/temp.79046B6543CD5FA096B99DBE0F7B73A6!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_0FCF34ED4695B08C7499759031C01D7B__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/temp.E986A81D4FE78A2CC67C49912FF2B2AF (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/temp.E986A81D4FE78A2CC67C49912FF2B2AF!
+[2018.04.24-15.11.37:172][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/temp.99A8B8AD49910AFD4917399EA69AA2C2 (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Dell/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/temp.99A8B8AD49910AFD4917399EA69AA2C2!
+[2018.04.24-15.11.37:172][711]LogDerivedDataCache: Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy PhysX_3B0AB674B19F4A698B28F7025C031EA2_PhysXPC_C0FCBC82490F2950AC62D389BC77F9FC__1_0_0_0_3_13315_0.
+[2018.04.24-15.11.37:173][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.24-15.11.37:179][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.04.24-15.11.37:184][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.24-15.11.37:189][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cave_Chain, compiling. 
+[2018.04.24-15.11.37:195][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Slums_Cloth_01, compiling. 
+[2018.04.24-15.11.37:201][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_SubUV, compiling. 
+[2018.04.24-15.11.37:207][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2018.04.24-15.11.37:213][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Radial_Gradient, compiling. 
+[2018.04.24-15.11.37:219][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Heat_Distortion, compiling. 
+[2018.04.24-15.11.37:226][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2018.04.24-15.11.37:233][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Aspen_Tree_Bark, compiling. 
+[2018.04.24-15.11.37:239][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Aspen_Tree_Lit_Blowing, compiling. 
+[2018.04.24-15.11.37:248][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Cave_Rock_Small_Moss, compiling. 
+[2018.04.24-15.11.37:259][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Cave_Grass_Wave, compiling. 
+[2018.04.24-15.11.37:266][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Cart, compiling. 
+[2018.04.24-15.11.37:273][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Hay, compiling. 
+[2018.04.24-15.11.37:278][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WoodenBarrel_01, compiling. 
+[2018.04.24-15.11.37:283][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Forge_Parts, compiling. 
+[2018.04.24-15.11.37:288][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Fire_GrinderTrap, compiling. 
+[2018.04.24-15.11.37:294][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cork, compiling. 
+[2018.04.24-15.11.37:299][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.04.24-15.11.37:304][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Liguid, compiling. 
+[2018.04.24-15.11.37:309][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SwordHiltGuard, compiling. 
+[2018.04.24-15.11.37:315][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SwordMetal, compiling. 
+[2018.04.24-15.11.37:321][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Hilt, compiling. 
+[2018.04.24-15.11.37:328][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.04.24-15.11.37:334][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Vampire_Mat_Mixamo, compiling. 
+[2018.04.24-15.11.37:341][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Marble_Polished, compiling. 
+[2018.04.24-15.11.37:348][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trn_Candelabra_AlbedoTransparency_Mat, compiling. 
+[2018.04.24-15.11.37:355][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trn_BarStool1, compiling. 
+[2018.04.24-15.11.37:361][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trn_ChairSimple1, compiling. 
+[2018.04.24-15.11.37:368][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CharM_Troll_Poison, compiling. 
+[2018.04.24-15.11.37:900][711]LogFileManager: Error: Error writing to file: C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/6F3E7FC0407A53C2EDF06E8E03E2274E/3C4CDCEE547BE70145FD998B64704404D (Espacio en disco insuficiente.)
+[2018.04.24-15.11.37:900][711]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+[2018.04.24-15.11.38:667][711]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+[2018.04.24-15.11.38:678][711]LogWindows: Error: === Critical error: ===
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 884] 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: Shader Compiling thread exception:
+[2018.04.24-15.11.38:678][711]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 1047] 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: Could not write the shader compiler transfer filename to 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/6F3E7FC0407A53C2EDF06E8E03E2274E/3C4CDCEE547BE70145FD998B64704404D' (Free Disk Space: 0.
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x0000000055BC4008 KERNELBASE.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x000000003C9D76D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DC5B330B UE4Editor-Core.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DC5447F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DA924903 UE4Editor-Engine.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DA8ABDF7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DA914DC8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DC7B092C UE4Editor-Core.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x00000000DC7A2563 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x0000000057801FE4 KERNEL32.DLL!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x0000000058E7F061 ntdll.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: [Callstack] 0x0000000058E7F061 ntdll.dll!UnknownFunction []
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:678][711]LogWindows: Error: 
+[2018.04.24-15.11.38:690][711]LogExit: Executing StaticShutdownAfterError
+[2018.04.24-15.11.38:701][711]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.04.24-15.11.38:701][711]Log file closed, 04/24/18 10:11:38
