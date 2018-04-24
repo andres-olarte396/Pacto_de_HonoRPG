@@ -1,0 +1,3 @@
+D:\Git\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor\Pacto_de_Honor.Build.cs
+D:\Git\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor.Target.cs
+D:\Git\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_HonorEditor.Target.cs
