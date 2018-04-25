@@ -36,17 +36,17 @@
 			"IsPrecompiled": true
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/Binaries/Win64/UE4Editor-MySQL.dll",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/Binaries/Win64/UE4Editor-MySQL.dll",
 			"Type": "DynamicLibrary",
 			"IsPrecompiled": true
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/Binaries/Win64/UE4Editor-MySQL.pdb",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/Binaries/Win64/UE4Editor-MySQL.pdb",
 			"Type": "SymbolFile",
 			"IsPrecompiled": true
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MySQL.lib",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MySQL.lib",
 			"Type": "ImportLibrary",
 			"IsPrecompiled": true
 		},
@@ -5743,7 +5743,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/MySQL.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/MySQL.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -6867,11 +6867,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/SQLLib/x64/SQL.dll",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/SQLLib/x64/SQL.dll",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MySQL/SQLLib/x64/MySql.Data.dll",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MySQL/SQLLib/x64/MySql.Data.dll",
 			"Type": "NonUFS"
 		},
 		{
