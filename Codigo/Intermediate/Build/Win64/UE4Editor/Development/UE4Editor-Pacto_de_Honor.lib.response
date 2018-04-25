@@ -7,10 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\MyCharacter.cpp.obj"
-"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.cpp.obj"
-"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\MyCharacter.gen.cpp.obj"
-"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.init.gen.cpp.obj"
+"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\MyCharacter.cpp.obj"
+"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.cpp.obj"
+"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\MyCharacter.gen.cpp.obj"
+"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.init.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Pacto_de_Honor.lib"
+/OUT:"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Pacto_de_Honor.lib"
