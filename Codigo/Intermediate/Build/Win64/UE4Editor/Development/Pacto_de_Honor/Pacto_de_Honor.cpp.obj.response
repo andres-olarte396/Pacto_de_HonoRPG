@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I D:\Git\Pacto_de_HonoRPG\Codigo\Source
-/I D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Inc\Pacto_de_Honor
-/I D:\Git\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor
+/I C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Source
+/I C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Inc\Pacto_de_Honor
+/I C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -359,9 +359,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Git\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor\Pacto_de_Honor.cpp"
-/FI"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Definitions.Pacto_de_Honor.h"
-/Fo"D:\Git\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.cpp.obj"
+"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Source\Pacto_de_Honor\Pacto_de_Honor.cpp"
+/FI"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Definitions.Pacto_de_Honor.h"
+/Fo"C:\Users\Diego\Documents\GitHub\Pacto_de_HonoRPG\Codigo\Intermediate\Build\Win64\UE4Editor\Development\Pacto_de_Honor\Pacto_de_Honor.cpp.obj"
 /TP
 /GR-
 /W4
