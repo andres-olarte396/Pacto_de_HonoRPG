@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pacto de honor</string>
+
+
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Repetir_contraseña">Repetir contraseña</string>
+    <string name="Correo">Correo</string>
+    <string name="Condiciones">Terminos y condiciones</string>
+    <string name="Iniciar_sesion">Iniciar sesion</string>
+    <string name="Iniciar_sesion_facebook">Iniciar sesion /n facebook</string>
+    <string name="Registrarse">Registrarse</string>
+
+    <string name="Noticias">Noticias</string>
+    <string name="Ranking">Ranking</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Notas">Notas del parche</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Nueva_contraseña">Nueva contraseña</string>
+
+    <string name="Configuracion">Configuracion</string>
+    <string name="Salir">Cerrar sesion</string>
+    <string name="Logo">Logo</string>
+</resources>
