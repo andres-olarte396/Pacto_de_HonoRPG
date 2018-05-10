@@ -770,3 +770,50 @@ LogInit: Object subsystem initialized
 [2018.05.10-16.23.14:655][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2018.05.10-16.23.15:156][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2018.05.10-16.23.15:657][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.16:157][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.16:657][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.17:158][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.17:727][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.18:309][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.18:829][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.19:347][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.19:849][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.20:350][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.20:859][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.21:360][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.21:860][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.22:361][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.22:862][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.23:363][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.23:864][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.24:365][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.24:866][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.25:367][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.25:867][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.26:368][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.26:869][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.27:370][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.27:870][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.28:371][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.28:872][107]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.05.10-16.23.29:397][107]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.10-16.23.29:400][107]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.10-16.23.29:400][107]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.10-16.23.29:400][107]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.10-16.23.29:400][107]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.10-16.23.29:401][107]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.10-16.23.29:401][107]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.10-16.23.29:401][107]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.10-16.23.29:404][107]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.10-16.23.29:408][107]LogExit: Exiting.
+[2018.05.10-16.23.29:443][107]Log file closed, 05/10/18 11:23:29
