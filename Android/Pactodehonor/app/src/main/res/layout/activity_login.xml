@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fondo1" />
+        app:srcCompat="@drawable/fondo" />
 
     <ImageView
         android:id="@+id/Logo"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_weight="1"
         android:fontFamily="sans-serif"
         android:text="@string/Usuario"
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_weight="1"
         android:text="@string/Contraseña"
         android:textColor="@android:color/white"
@@ -98,36 +98,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Texto_contraseña" />
 
-    <TextView
-        android:id="@+id/Text_Iniciar_sesion"
+    <Button
+        android:id="@+id/Login"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:onClick="login"
         android:text="@string/Iniciar_sesion"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:typeface="serif"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="364dp" />
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Contraseña" />
 
-    <TextView
-        android:id="@+id/Text_Registrarse"
+    <Button
+        android:id="@+id/Registro"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:onClick="Registro"
         android:text="@string/Registrarse"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:typeface="serif"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="428dp" />
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Login" />
 
 </android.support.constraint.ConstraintLayout>
