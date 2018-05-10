@@ -1,40 +1,37 @@
 package com.example.alien.pactodehonor;
 
-/**
- * Created by Diego on 02/05/2018.
- */
-
 public class Heroe {
-    private static String Nombre;
-    private static String  Nivel;
-    private static String raza;
-    public Heroe(String Nombre , String nivel, String raza){
-        this.Nombre=Nombre;
+    private String Nombre;
+    private String Nivel;
+    private String Raza;
+
+    public Heroe(String nombre , String nivel, String raza){
+        this.Nombre=nombre;
         this.Nivel=nivel;
-        this.raza=raza;
+        this.Raza=raza;
     }
-    public static String getNombre() {
+
+    public String getNombre() {
         return Nombre;
     }
 
-    public static void setNombre(String nombre) {
-        Nombre = nombre;
+    public void setNombre(String nombre) {
+        this.Nombre = Nombre;
     }
 
-    public static String getNivel() {
+    public String getNivel() {
         return Nivel;
     }
 
-    public static void setNivel(String nivel) {
-        Nivel = nivel;
+    public void setNivel(String nivel) { this.Nivel = Nivel;
     }
 
-    public static String getRaza() {
-        return raza;
+    public String getRaza() {
+        return Raza;
     }
 
-    public static void setRaza(String raza) {
-        Heroe.raza = raza;
+    public void setRaza(String raza) {
+        this.Raza = Raza;
     }
 
 
