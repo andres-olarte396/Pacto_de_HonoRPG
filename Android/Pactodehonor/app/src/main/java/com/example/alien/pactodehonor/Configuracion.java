@@ -8,10 +8,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.example.alien.pactodehonor.CargaDatos.CambiarContraseña;
+
 public class Configuracion extends AppCompatActivity {
 
     Button perfil;
-    String user,contraseñaBD;
+    String user;
     TextView contraseña,contraseña_nueva,contraseña_nueva2;
 
     @Override
@@ -55,8 +57,10 @@ public class Configuracion extends AppCompatActivity {
         String pass_new2=contraseña_nueva2.getText().toString();
 
 
-        if (pass.equals(contraseñaBD)&&pass_new.equals(pass_new2)){
+        if (pass_new.equals(pass_new2)){
             //Remplazar la contraseña en la BD
+            CambiarContraseña(pass,pass_new);
+
             Intent intent = new Intent(Configuracion.this, Perfil.class);
             intent.putExtra("Usuario",user);
             startActivity(intent);
