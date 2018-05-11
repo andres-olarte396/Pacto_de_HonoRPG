@@ -19,7 +19,7 @@ public class Noticias extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noticias);
         txtnoticias = (TextView) findViewById(R.id.Texto_noticias);
-        txtnotas = (TextView) findViewById(R.id.Texto_notas);
+       // txtnotas = (TextView) findViewById(R.id.Texto_notas);
         perfil = (Button) findViewById(R.id.Perfil);
         getUser();
     }

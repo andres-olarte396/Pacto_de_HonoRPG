@@ -6,10 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Configuracion">
 
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fondo" />
+
     <LinearLayout
         android:id="@+id/Main"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,30 +33,33 @@
 
         <Button
             android:id="@+id/Noticias"
-            style="@style/Widget.AppCompat.Button"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="noticias"
-            android:text="@string/Noticias" />
+            android:text="@string/Noticias"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/Ranking"
-            style="@style/Widget.AppCompat.Button"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="ranking"
-            android:text="@string/Ranking" />
+            android:text="@string/Ranking"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/Perfil"
-            style="@style/Widget.AppCompat.Button"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="perfil"
-            android:text="@string/Perfil" />
+            android:text="@string/Perfil"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <TextView
@@ -51,6 +70,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:text="@string/Contraseña"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Main" />
@@ -76,6 +97,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:text="@string/Nueva_contraseña"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Contraseña_actual" />
@@ -112,40 +135,49 @@
         android:layout_marginStart="163dp"
         android:layout_marginTop="15dp"
         android:text="@string/Repetir_contraseña"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Contraseña_nueva" />
 
     <Button
         android:id="@+id/Aceptar"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
+        android:onClick="aceptar"
         android:text="@string/Aceptar"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Contraseña_nueva2" />
 
     <Button
         android:id="@+id/Config"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="32dp"
         android:onClick="config"
         android:text="@string/Configuracion"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Salir"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
         android:text="@string/Salir"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
