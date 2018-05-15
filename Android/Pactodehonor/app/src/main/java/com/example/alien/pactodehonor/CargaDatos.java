@@ -21,6 +21,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
+
 /**
  * Created by Diego on 13/04/2018.
  */
@@ -252,6 +253,7 @@ public class CargaDatos {
                                     String RazaJ = object.getString("Raza");
                                     nuevo = new Heroe(NombreJ,Nivel_heroe,RazaJ);
                                     heroes.addLast(nuevo);
+
 
                                 }
 

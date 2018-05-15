@@ -9,15 +9,17 @@ import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import static com.example.alien.pactodehonor.CargaDatos.heroes;
 
 public class Ranking extends AppCompatActivity {
 
     Button perfil;
     String user;
 
-    private ArrayList<Heroe> usersList;
+    private LinkedList<Heroe> usersList;
     private RecyclerView recyclerView;
-    private MyAdapter myAdapter;
+    private  MyAdapter myAdapter;
 
 
     @Override
@@ -25,16 +27,14 @@ public class Ranking extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ranking);
         perfil = (Button) findViewById(R.id.Perfil);
-    }
 
-    public void getUser(){
-        Bundle dato =getIntent().getExtras();
-        user=dato.getString("Usuario");
-        perfil.setText(""+user);
+        usersList = new LinkedList<Heroe>();
 
-        usersList = new ArrayList<Heroe>();
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+
+        usersList=heroes;
         myAdapter = new MyAdapter(usersList);
+        myAdapter.notifyDataSetChanged();
         //Crear un manager
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
 
@@ -44,8 +44,22 @@ public class Ranking extends AppCompatActivity {
         //Asignar el adaptador
         recyclerView.setAdapter(myAdapter);
 
-        myAdapter.notifyDataSetChanged();
+
+
+
+        getUser();
     }
+
+    public void getUser(){
+        Bundle dato =getIntent().getExtras();
+        user=dato.getString("Usuario");
+        perfil.setText(""+user);
+
+
+
+    }
+
+
 
     public void noticias (View view){
         Intent intent = new Intent(Ranking.this, Noticias.class);
