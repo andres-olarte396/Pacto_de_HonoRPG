@@ -9,12 +9,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+
+import static com.example.alien.pactodehonor.CargaDatos.heroes;
 
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>  {
 
-        //Lista de objetos a mostrar
-        ArrayList<Heroe> listaNombres;
+
+        LinkedList<Heroe> listaNombres;
 
 
 public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -22,7 +25,7 @@ public static class MyViewHolder extends RecyclerView.ViewHolder {
 
     public TextView nombrer;
     public TextView razar;
-    public EditText nivelr;
+    public TextView nivelr;
 
     public MyViewHolder(View view) {
         super(view);
@@ -35,8 +38,11 @@ public static class MyViewHolder extends RecyclerView.ViewHolder {
 
 
 
-    public MyAdapter( ArrayList<Heroe> listaNombres) {
+    public MyAdapter( LinkedList<Heroe> listaNombres) {
+
         this.listaNombres = listaNombres;
+        notifyDataSetChanged();
+
     }
 
 
@@ -51,11 +57,11 @@ public static class MyViewHolder extends RecyclerView.ViewHolder {
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        Heroe user = listaNombres.get(position);
+        Heroe heroe = listaNombres.get(position);
 
-        holder.nombrer.setText(user.getNombre());
-        holder.razar.setText(user.getRaza());
-        holder.nivelr.setText(user.getNivel());
+        holder.nombrer.setText(heroe.getNombre());
+        holder.razar.setText(heroe.getRaza());
+        holder.nivelr.setText(heroe.getNivel());
 
     }
 
