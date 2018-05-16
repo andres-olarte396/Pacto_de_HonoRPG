@@ -1,5 +1,7 @@
 package com.example.alien.pactodehonor;
 
+import android.app.Application;
+import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -18,6 +20,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
+
 
 /**
  * Created by Diego on 13/04/2018.
@@ -160,10 +163,10 @@ public class CargaDatos {
 
     }
 
-    public void CambiarContraseña(final String ContraseñaV, final String ContraseñaN){
+    public static void CambiarContraseña(final String Contraseñav, final String Contraseñan){
 
-        this.ContraseñaV=ContraseñaV;
-        this.ContraseñaN=ContraseñaN;
+        ContraseñaV=Contraseñav;
+        ContraseñaN=Contraseñan;
 
         String response = null;
         final String finalResponse = response;
@@ -177,8 +180,6 @@ public class CargaDatos {
 
                         String Validacion = response.substring(17,25);
                         if(Validacion.equals("cambiada")){
-                            //se cambio
-
 
                         }
                         else {
@@ -251,8 +252,8 @@ public class CargaDatos {
                                     String Nivel_heroe = object.getString("Nivel_heroe");
                                     String RazaJ = object.getString("Raza");
                                     nuevo = new Heroe(NombreJ,Nivel_heroe,RazaJ);
-
                                     heroes.addLast(nuevo);
+
 
                                 }
 
