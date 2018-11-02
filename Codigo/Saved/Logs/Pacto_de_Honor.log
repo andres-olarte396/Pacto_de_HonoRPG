@@ -1,20 +1,19 @@
-﻿Log file open, 10/25/18 11:38:23
+﻿Log file open, 10/28/18 21:55:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
-LogInit: Display: Running engine for game: Pacto_de_Honor
+LogInit: Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1049519721) SRandInit(-1049519721).
+LogInit: Display: Loading recent project file: ../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Pacto_de_Honor.uproject
+LogInit: Display: RandInit(-945074556) SRandInit(-945074556).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.267450
+LogStats: Stats thread started at 0.173604
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -38,6 +37,7 @@ LogPluginManager: Mounting plugin SpeedTreeImporter
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin MySQL
 LogPluginManager: Mounting plugin VaRestPlugin
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
@@ -50,7 +50,6 @@ LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
 LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin MatineeToLevelSequence
-LogPluginManager: Mounting plugin MySQL
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting plugin OnlineSubsystemIOS
 LogPluginManager: Mounting plugin OnlineSubsystem
@@ -79,7 +78,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file E:/Git/Pacto_de_HonoRPG/Codigo/Binaries/Win64/UE4Editor-Pacto_de_Honor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Binaries/Win64/UE4Editor-Pacto_de_Honor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -105,6 +104,7 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/MySQL/Binaries/Win64/UE4Editor-MySQL.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestPlugin.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/VaRestPlugin/Binaries/Win64/UE4Editor-VaRestEditorPlugin.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
@@ -129,7 +129,6 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MySQL/Binaries/Win64/UE4Editor-MySQL.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
@@ -197,86 +196,900 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/U_4.18.3/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.25-16.38.32:450][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.25-16.38.32:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.25-16.38.32:687][  0]LogInit: Computer: DELL_INSPIRON
-[2018.10.25-16.38.32:687][  0]LogInit: User: Dell
-[2018.10.25-16.38.32:687][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.25-16.38.32:687][  0]LogInit: High frequency timer resolution =3.515622 MHz
-[2018.10.25-16.38.32:717][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.10.25-16.38.32:717][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.25-16.38.32:717][  0]LogMemory: Process Physical Memory: 271.98 MB used, 271.98 MB peak
-[2018.10.25-16.38.32:717][  0]LogMemory: Process Virtual Memory: 271.88 MB used, 271.88 MB peak
-[2018.10.25-16.38.32:717][  0]LogMemory: Physical Memory: 2747.61 MB used,  5381.95 MB free, 8129.57 MB total
-[2018.10.25-16.38.32:717][  0]LogMemory: Virtual Memory: 4782.07 MB used,  5381.95 MB free, 134217728.00 MB total
-[2018.10.25-16.38.34:672][  0]LogInit: Using OS detected language (es-ES).
-[2018.10.25-16.38.34:672][  0]LogInit: Using OS detected locale (es-ES).
-[2018.10.25-16.38.34:857][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2018.10.25-16.38.35:345][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.25-16.38.38:385][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.25-16.38.38:494][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.10.25-16.38.38:494][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.25-16.38.38:498][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.25-16.38.38:498][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.25-16.38.38:498][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.25-16.38.38:502][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.25-16.38.38:503][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.25-16.38.38:503][  0]LogWindows: EnumDisplayDevices:
-[2018.10.25-16.38.38:503][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.10.25-16.38.38:518][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.10.25-16.38.38:518][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.10.25-16.38.38:518][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.10.25-16.38.38:518][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.25-16.38.38:518][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.10.25-16.38.38:518][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.25-16.38.38:518][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.25-16.38.38:518][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2018.10.25-16.38.38:556][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.25-16.38.38:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.25-16.38.39:239][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Git/Pacto_de_HonoRPG/Codigo/Intermediate/Shaders/WorkingDirectory/6984/).
-[2018.10.25-16.38.39:240][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dell/AppData/Local/Temp/UnrealShaderWorkingDir/294725314A74586DB445568940DB3C7D/'.
-[2018.10.25-16.38.39:265][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.25-16.38.45:728][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.25-16.38.46:019][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.25-16.38.46:242][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.25-16.38.46:537][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.25-16.38.46:772][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.25-16.38.46:998][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.25-16.38.47:216][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.25-16.38.47:436][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.25-16.38.47:648][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.25-16.38.47:944][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.10.25-16.38.48:182][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.10.25-16.38.48:417][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.10.25-16.38.48:671][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.10.25-16.38.48:914][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.10.25-16.38.49:376][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.10.25-16.38.49:377][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.10.25-16.38.49:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.25-16.38.49:871][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.25-16.38.50:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.25-16.38.50:541][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.25-16.38.50:766][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.25-16.38.50:980][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.25-16.38.51:210][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.25-16.38.51:460][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.25-16.38.51:460][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.25-16.38.55:170][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: Loaded boot cache 0.62s 78MB C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dell/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Git/Pacto_de_HonoRPG/Codigo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.25-16.38.55:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.25-16.38.55:891][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.25-16.38.55:904][  0]LogDerivedDataCache: Using Local data cache path E:/Data_UnrealEngine: Writable
-[2018.10.25-16.38.55:983][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.25-16.38.56:093][  0]LogSlate: Using Freetype 2.6.0
-[2018.10.25-16.38.56:218][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.25-16.38.56:223][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.25-16.39.06:653][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-02.55.20:231][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-02.55.20:231][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.29-02.55.20:254][  0]LogInit: Computer: LAPTOP-FUP6AC7C
+[2018.10.29-02.55.20:254][  0]LogInit: User: Diego
+[2018.10.29-02.55.20:254][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.29-02.55.20:254][  0]LogInit: High frequency timer resolution =2.250004 MHz
+[2018.10.29-02.55.20:254][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.29-02.55.20:254][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.29-02.55.20:254][  0]LogMemory: Process Physical Memory: 273.48 MB used, 273.48 MB peak
+[2018.10.29-02.55.20:254][  0]LogMemory: Process Virtual Memory: 271.93 MB used, 271.93 MB peak
+[2018.10.29-02.55.20:254][  0]LogMemory: Physical Memory: 3215.98 MB used,  4865.25 MB free, 8081.24 MB total
+[2018.10.29-02.55.20:254][  0]LogMemory: Virtual Memory: 4782.36 MB used,  4865.25 MB free, 134217728.00 MB total
+[2018.10.29-02.55.20:541][  0]LogInit: Using OS detected language (es-MX).
+[2018.10.29-02.55.20:541][  0]LogInit: Using OS detected locale (es-CO).
+[2018.10.29-02.55.20:544][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
+[2018.10.29-02.55.20:663][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.29-02.55.20:986][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.29-02.55.21:056][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.10.29-02.55.21:056][  0]LogD3D11RHI:       4019/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.29-02.55.21:070][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.10.29-02.55.21:070][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.29-02.55.21:071][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.29-02.55.21:071][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.29-02.55.21:072][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.29-02.55.21:091][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.29-02.55.21:091][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.10.29-02.55.21:091][  0]LogWindows: EnumDisplayDevices:
+[2018.10.29-02.55.21:091][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2018.10.29-02.55.21:092][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.29-02.55.21:092][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.29-02.55.21:092][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.10.29-02.55.21:092][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.29-02.55.21:092][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.10.29-02.55.21:092][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.29-02.55.21:092][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.29-02.55.21:092][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2018.10.29-02.55.21:125][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.29-02.55.21:143][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.29-02.55.21:144][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Intermediate/Shaders/WorkingDirectory/8884/).
+[2018.10.29-02.55.21:144][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Diego/AppData/Local/Temp/UnrealShaderWorkingDir/AEBBE97D4F2F47A50BF21C979AC3A9B7/'.
+[2018.10.29-02.55.21:144][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.29-02.55.22:115][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.29-02.55.22:202][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.29-02.55.22:289][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.29-02.55.22:375][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.29-02.55.22:461][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.29-02.55.22:549][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.29-02.55.22:636][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.29-02.55.22:723][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.29-02.55.22:805][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.29-02.55.22:892][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.29-02.55.22:977][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.29-02.55.23:063][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.29-02.55.23:148][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.29-02.55.23:232][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.29-02.55.23:407][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.29-02.55.23:407][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.29-02.55.23:492][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-02.55.23:569][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.29-02.55.23:713][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.29-02.55.23:757][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.29-02.55.23:845][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.29-02.55.23:935][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.29-02.55.24:021][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.29-02.55.24:109][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.29-02.55.24:109][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.29-02.55.25:000][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Diego/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Diego/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.29-02.55.25:068][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.29-02.55.25:081][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.29-02.55.25:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Diego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.29-02.55.25:101][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.29-02.55.25:101][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.29-02.55.25:102][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.29-02.55.25:102][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.29-02.55.25:456][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-02.55.25:989][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.29-02.55.26:068][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.29-02.55.26:068][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.29-02.55.26:068][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.29-02.55.26:068][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.29-02.55.26:068][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.29-02.55.26:111][  0]LogNetVersion: Pacto_de_Honor , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2404482579)
+[2018.10.29-02.55.26:324][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.10.29-02.55.26:996][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.064529 seconds
+[2018.10.29-02.55.26:999][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.10.29-02.55.26:999][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.10.29-02.55.26:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.29-02.55.27:108][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.10.29-02.55.31:273][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.29-02.55.31:340][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.29-02.55.32:584][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.29-02.55.33:283][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.29-02.55.35:498][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.29-02.55.35:984][  0]LogOcInput: OculusInput pre-init called
+[2018.10.29-02.55.36:447][  0]LogEngine: Initializing Engine...
+[2018.10.29-02.55.36:449][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.29-02.55.36:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.29-02.55.36:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.29-02.55.36:890][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.29-02.55.36:900][  0]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-02.55.38:232][  0]LogInit: FAudioDevice initialized.
+[2018.10.29-02.55.38:529][  0]LogDerivedDataCache: Saved boot cache 0.30s 78MB C:/Users/Diego/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.29-02.55.38:541][  0]LogInit: Texture streaming: Enabled
+[2018.10.29-02.55.38:738][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.29-02.55.38:978][  0]LogInit: Transaction tracking system initialized
+[2018.10.29-02.55.39:581][  0]BlueprintLog: New page: Cargar el editor
+[2018.10.29-02.55.41:279][  0]LocalizationService: Localization service is disabled
+[2018.10.29-02.55.42:843][  0]LogConsoleResponse: Display: 
+[2018.10.29-02.55.43:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.29-02.55.43:051][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.29-02.55.43:051][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.29-02.55.43:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/' took 0.15s
+[2018.10.29-02.55.45:286][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/MenuPrincipal/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-02.55.45:286][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.29-02.55.45:366][  0]MapCheck: New page: Revisión del mapa
+[2018.10.29-02.55.45:366][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.29-02.55.45:430][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque1' para  InputAction Ataque1
+[2018.10.29-02.55.45:430][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque2' para  InputAction Ataque2
+[2018.10.29-02.55.45:436][  0]LogBlueprint: Warning: [Compiler Base_H_Blueprint] [0029,13] Compile of Base_H_Blueprint successful, but with 2 Warning(s) [in 11 ms] (/Game/Heroes/Base/Base_H_Blueprint.Base_H_Blueprint)
+[2018.10.29-02.55.47:548][  0]LogBlueprint: Warning: [Compiler EquipmentSlot] Obtener : 'DefaultButtonStyle' variable not found. Base class was probably changed. /Game/UMG/EquipmentSlot.EquipmentSlot
+[2018.10.29-02.55.47:570][  0]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/UMG/InventoryMain.InventoryMain without an associated node. The blueprint breakpoint has been removed
+[2018.10.29-02.55.48:358][  0]LogBlueprint: Warning: [Compiler EquipmentSlot] [0032,06] Compile of EquipmentSlot successful, but with 1 Warning(s) [in 907 ms] (/Game/UMG/EquipmentSlot.EquipmentSlot)
+[2018.10.29-02.55.50:031][  0]LogAIModule: Creating AISystem for world Main
+[2018.10.29-02.55.50:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-02.55.50:066][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-02.55.50:201][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 135,774ms to complete.
+[2018.10.29-02.55.50:201][  0]LogFileHelpers: Loading map 'Main' took 4.915
+[2018.10.29-02.55.50:401][  0]LogCollectionManager: Loaded 0 collections in 0.002225 seconds
+[2018.10.29-02.55.50:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Saved/Collections/' took 0.01s
+[2018.10.29-02.55.50:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/Developers/Diego/Collections/' took 0.01s
+[2018.10.29-02.55.50:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/Collections/' took 0.01s
+[2018.10.29-02.55.50:522][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.29-02.55.50:530][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2370 classes and 529 folders.
+[2018.10.29-02.55.50:658][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.29-02.55.50:714][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.29-02.55.50:797][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.10.29-02.55.50:936][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.29-02.55.50:938][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.29-02.55.50:945][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.29-02.55.51:045][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 9 NumSamples 1 (Frame:1).
+[2018.10.29-02.55.51:320][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.10.29-02.55.51:320][  0]LogLoad: (Engine Initialization) Total time: 35.02 seconds
+[2018.10.29-02.55.51:320][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.29-02.55.51:320][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.10.29-02.55.51:320][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.10.29-02.55.51:339][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.29-02.55.51:378][  0]SourceControl: On branch Diego
+[2018.10.29-02.55.51:378][  0]SourceControl: Your branch is up to date with 'origin/Diego'.
+[2018.10.29-02.55.51:378][  0]SourceControl: Changes not staged for commit:
+[2018.10.29-02.55.51:378][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.10.29-02.55.51:378][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/Heroes/Heroe.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/MenuPrincipal/Login/InstanciasIniciales.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/NPCs/Npc1_sony/Character/Estatua_2.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/MisionHUD/Misiones.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/Modulo_Misiones/Crear_Mision.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/Modulo_Misiones/NpcMisiones/AssetDisparadorMisiones.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/Modulo_Misiones/NpcMisiones/MisionAsset.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/Modulo_Misiones/Preguntas.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Content/UMG/Modulo_Misiones/Preguntas_Crear.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Intermediate/CachedAssetRegistry.bin
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Saved/AutoScreenshot.png
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.10.29-02.55.51:378][  0]SourceControl: 	modified:   Codigo/Saved/Logs/Pacto_de_Honor.log
+[2018.10.29-02.55.51:378][  0]SourceControl: Untracked files:
+[2018.10.29-02.55.51:378][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.10.29-02.55.51:378][  0]SourceControl: 	Codigo/Content/UMG/Modulo_Misiones/Assets.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	Codigo/Content/UMG/Modulo_Misiones/Assets_MisionNormalCrear.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	Codigo/Content/UMG/Modulo_Misiones/NpcMisiones/AssetObjetosMisionHtp.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: 	Codigo/Content/UMG/Modulo_Misiones/NpcMisiones/AssetObjetosMisionNormal.uasset
+[2018.10.29-02.55.51:378][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.10.29-02.55.51:378][  0]LogContentStreaming: Texture pool size now 2000 MB
+[2018.10.29-02.55.51:439][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.10.29-02.55.51:806][  6]LogAssetRegistry: Asset discovery search completed in 25.5046 seconds
+[2018.10.29-02.55.51:817][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.29-02.55.51:818][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2018.10.29-02.56.00:757][541]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.29-02.56.01:901][541]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.01:901][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.02:260][541]LogPackageName: SearchForPackageOnDisk took   0.358s, but failed to resolve JW_FlameDungeon.
+[2018.10.29-02.56.02:260][541]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2018.10.29-02.56.02:260][541]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.02:260][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.02:605][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve JW_FlameDungeon.
+[2018.10.29-02.56.02:605][541]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2018.10.29-02.56.02:656][541]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.02:656][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.03:022][541]LogPackageName: SearchForPackageOnDisk took   0.367s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2018.10.29-02.56.03:022][541]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2018.10.29-02.56.03:028][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.03:028][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.03:372][541]LogPackageName: SearchForPackageOnDisk took   0.343s, but failed to resolve JW_Ice_Mountain.
+[2018.10.29-02.56.03:372][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.10.29-02.56.03:376][541]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.03:376][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.03:723][541]LogPackageName: SearchForPackageOnDisk took   0.347s, but failed to resolve FX_Meshes.
+[2018.10.29-02.56.03:723][541]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.10.29-02.56.03:724][541]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.03:724][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.04:068][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve FX_Meshes.
+[2018.10.29-02.56.04:069][541]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.10.29-02.56.04:071][541]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.04:071][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.04:416][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve 'FX_Ambient.
+[2018.10.29-02.56.04:416][541]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2018.10.29-02.56.04:418][541]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.04:418][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.04:761][541]LogPackageName: SearchForPackageOnDisk took   0.344s, but failed to resolve CastleEffects.
+[2018.10.29-02.56.04:761][541]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2018.10.29-02.56.04:773][541]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.04:773][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.05:118][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve StaticMesh'FX_Meshes.
+[2018.10.29-02.56.05:118][541]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2018.10.29-02.56.05:119][541]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.05:119][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.05:459][541]LogPackageName: SearchForPackageOnDisk took   0.341s to resolve m_FogSheet_02.
+[2018.10.29-02.56.05:465][541]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.05:465][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.05:812][541]LogPackageName: SearchForPackageOnDisk took   0.347s, but failed to resolve FX_Test_LAN.
+[2018.10.29-02.56.05:812][541]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2018.10.29-02.56.05:827][541]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.05:828][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.06:172][541]LogPackageName: SearchForPackageOnDisk took   0.344s to resolve m_FogSheet_02.
+[2018.10.29-02.56.06:172][541]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.06:172][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.06:511][541]LogPackageName: SearchForPackageOnDisk took   0.339s to resolve m_FogSheet_02.
+[2018.10.29-02.56.06:511][541]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.06:511][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.06:849][541]LogPackageName: SearchForPackageOnDisk took   0.338s to resolve m_FogSheet_02.
+[2018.10.29-02.56.07:066][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.07:066][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.07:423][541]LogPackageName: SearchForPackageOnDisk took   0.357s, but failed to resolve JW_Ice_Mountain.
+[2018.10.29-02.56.07:423][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.10.29-02.56.07:424][541]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.07:424][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.07:766][541]LogPackageName: SearchForPackageOnDisk took   0.342s to resolve S_Survival_CA_Chicken_02.
+[2018.10.29-02.56.07:774][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.07:774][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.08:118][541]LogPackageName: SearchForPackageOnDisk took   0.343s, but failed to resolve JW_Ice_Mountain.
+[2018.10.29-02.56.08:118][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.10.29-02.56.08:118][541]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.08:118][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.08:464][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve Env_ALL_Artifacts.
+[2018.10.29-02.56.08:464][541]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2018.10.29-02.56.08:559][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.08:559][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.08:901][541]LogPackageName: SearchForPackageOnDisk took   0.342s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.08:901][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.10.29-02.56.08:901][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.08:901][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.09:245][541]LogPackageName: SearchForPackageOnDisk took   0.343s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.09:245][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.10.29-02.56.09:245][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.09:245][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.09:583][541]LogPackageName: SearchForPackageOnDisk took   0.338s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.09:583][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.10.29-02.56.09:583][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.09:583][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.09:932][541]LogPackageName: SearchForPackageOnDisk took   0.349s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.09:932][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.10.29-02.56.09:933][541]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.09:933][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.10:278][541]LogPackageName: SearchForPackageOnDisk took   0.345s, but failed to resolve Fire_Fortress.
+[2018.10.29-02.56.10:278][541]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.10.29-02.56.10:278][541]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.10:278][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.10:614][541]LogPackageName: SearchForPackageOnDisk took   0.336s, but failed to resolve Fire_Fortress.
+[2018.10.29-02.56.10:614][541]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.10.29-02.56.10:671][541]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.10:671][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.11:060][541]LogPackageName: SearchForPackageOnDisk took   0.388s, but failed to resolve S_ClothTarps_03.
+[2018.10.29-02.56.11:060][541]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2018.10.29-02.56.11:134][541]LogPackageName: Warning: String asset reference "SM_Snow_Snow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.11:134][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.11:477][541]LogPackageName: SearchForPackageOnDisk took   0.342s to resolve SM_Snow_Snow.
+[2018.10.29-02.56.11:528][541]LogPackageName: Warning: String asset reference "Env_Ice_Foliage.Mesh.SM_Snowy_Pine_Tree" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.11:528][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.11:871][541]LogPackageName: SearchForPackageOnDisk took   0.343s, but failed to resolve Env_Ice_Foliage.
+[2018.10.29-02.56.11:871][541]LogPackageName: Warning: String asset reference "Env_Ice_Foliage.Mesh.SM_Snowy_Pine_Tree" could not be resolved.
+[2018.10.29-02.56.11:889][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.11:889][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.12:235][541]LogPackageName: SearchForPackageOnDisk took   0.346s, but failed to resolve JW_Ice_Mountain.
+[2018.10.29-02.56.12:235][541]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.10.29-02.56.12:240][541]LogPackageName: Warning: String asset reference "Exo_Deco01.SM.Mesh.WoodenBarrel_Intact" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.12:240][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.12:589][541]LogPackageName: SearchForPackageOnDisk took   0.348s, but failed to resolve Exo_Deco01.
+[2018.10.29-02.56.12:589][541]LogPackageName: Warning: String asset reference "Exo_Deco01.SM.Mesh.WoodenBarrel_Intact" could not be resolved.
+[2018.10.29-02.56.12:597][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.12:598][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.12:937][541]LogPackageName: SearchForPackageOnDisk took   0.340s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.12:937][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RuinedSteps001" could not be resolved.
+[2018.10.29-02.56.12:938][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_Grinder001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.12:938][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.13:285][541]LogPackageName: SearchForPackageOnDisk took   0.347s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.13:285][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_Grinder001" could not be resolved.
+[2018.10.29-02.56.13:285][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.13:285][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.13:625][541]LogPackageName: SearchForPackageOnDisk took   0.340s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.13:625][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.10.29-02.56.13:625][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.13:625][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.13:965][541]LogPackageName: SearchForPackageOnDisk took   0.340s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.13:965][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.10.29-02.56.13:965][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.13:965][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.14:309][541]LogPackageName: SearchForPackageOnDisk took   0.344s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.14:309][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.10.29-02.56.14:310][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.14:310][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.14:645][541]LogPackageName: SearchForPackageOnDisk took   0.335s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.14:645][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Texture.Env_Ice_RockyStairs01" could not be resolved.
+[2018.10.29-02.56.14:645][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RockTerrain01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.14:645][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.14:986][541]LogPackageName: SearchForPackageOnDisk took   0.341s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.56.14:986][541]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_RockTerrain01" could not be resolved.
+[2018.10.29-02.56.14:986][541]LogPackageName: Warning: String asset reference "Env_Ice_RuinedWalls001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.14:986][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.15:332][541]LogPackageName: SearchForPackageOnDisk took   0.346s, but failed to resolve Env_Ice_RuinedWalls001.
+[2018.10.29-02.56.15:332][541]LogPackageName: Warning: String asset reference "Env_Ice_RuinedWalls001" could not be resolved.
+[2018.10.29-02.56.15:408][541]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.15:408][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.15:754][541]LogPackageName: SearchForPackageOnDisk took   0.346s to resolve m_FogSheet_02.
+[2018.10.29-02.56.15:776][541]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.15:776][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.16:122][541]LogPackageName: SearchForPackageOnDisk took   0.346s, but failed to resolve Env_ALL_Artifacts.
+[2018.10.29-02.56.16:122][541]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2018.10.29-02.56.16:123][541]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.56.16:123][541]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.56.16:461][541]LogPackageName: SearchForPackageOnDisk took   0.338s, but failed to resolve S_ClothTarps_03.
+[2018.10.29-02.56.16:461][541]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2018.10.29-02.56.16:879][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.16:879][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.29-02.56.16:922][541]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/10/2018 4:56:16 p. m.)
+[2018.10.29-02.56.16:945][541]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.10.29-02.56.16:983][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038091s)
+[2018.10.29-02.56.16:984][541]LogAIModule: Creating AISystem for world Main
+[2018.10.29-02.56.16:984][541]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.10.29-02.56.16:984][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.039278s)
+[2018.10.29-02.56.17:026][541]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-02.56.17:041][541]LogInit: FAudioDevice initialized.
+[2018.10.29-02.56.17:990][541]LogLoad: Game class is 'MyGame_C'
+[2018.10.29-02.56.18:053][541]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2018.10.28-21.56.18
+[2018.10.29-02.56.18:064][541]LogWorld: Bringing up level for play took: 0.011129
+[2018.10.29-02.56.18:301][541]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2018.10.29-02.56.18:302][541]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-02.56.18:302][541]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-02.56.18:302][541]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-02.56.18:378][541]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-02.56.18:381][541]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 1,402
+[2018.10.29-02.56.18:382][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.18:577][542]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/' took 27.22s
+[2018.10.29-02.56.23:970][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.24:113][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.25:456][774]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.29-02.56.25:483][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.25:483][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.29-02.56.25:483][774]PIE: New page: Sesión PIE (reproducción en el editor): Main (28/10/2018 4:56:25 p. m.)
+[2018.10.29-02.56.25:484][774]LogPlayLevel: Creating play world package: /Game/MenuPrincipal/UEDPIE_0_Main
+[2018.10.29-02.56.25:484][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000724s)
+[2018.10.29-02.56.25:485][774]LogAIModule: Creating AISystem for world Main
+[2018.10.29-02.56.25:485][774]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2018.10.29-02.56.25:485][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuPrincipal/Main.Main to /Game/MenuPrincipal/UEDPIE_0_Main.Main (0.001423s)
+[2018.10.29-02.56.25:499][774]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-02.56.25:512][774]LogInit: FAudioDevice initialized.
+[2018.10.29-02.56.25:697][774]LogLoad: Game class is 'MyGame_C'
+[2018.10.29-02.56.25:698][774]LogWorld: Bringing World /Game/MenuPrincipal/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2018.10.28-21.56.25
+[2018.10.29-02.56.26:425][774]LogWorld: Bringing up level for play took: 0.726234
+[2018.10.29-02.56.26:425][774]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-02.56.26:425][774]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-02.56.26:425][774]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-02.56.26:427][774]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-02.56.26:430][774]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/MenuPrincipal/UEDPIE_0_Main 1,451
+[2018.10.29-02.56.26:431][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-02.56.36:360][311]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.29-02.56.36:360][311]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.29-02.56.36:361][311]LogNet: Browse: /Game/MenuPrincipal/EntarMundo/Nivelesdemenu/SeleccionHeroe
+[2018.10.29-02.56.36:369][311]LogLoad: LoadMap: /Game/MenuPrincipal/EntarMundo/Nivelesdemenu/SeleccionHeroe
+[2018.10.29-02.56.40:980][311]LogBlueprint: Warning: [Compiler Base_M_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque1' para  InputAction Ataque1
+[2018.10.29-02.56.40:980][311]LogBlueprint: Warning: [Compiler Base_M_Blueprint] Acción desconocida de referencias del evento InputAction 'Ataque2' para  InputAction Ataque2
+[2018.10.29-02.56.40:996][311]LogBlueprint: Warning: [Compiler Base_M_Blueprint] [0084,70] Compile of Base_M_Blueprint successful, but with 2 Warning(s) [in 33 ms] (/Game/Heroes/Base/Base_M_Blueprint.Base_M_Blueprint)
+[2018.10.29-02.56.42:277][311]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.29-02.57.02:049][311]LogAIModule: Creating AISystem for world SeleccionHeroe
+[2018.10.29-02.57.02:058][311]LogLoad: Game class is 'Crear_HeroeGM_C'
+[2018.10.29-02.57.02:847][311]LogWorld: Bringing World /Game/MenuPrincipal/EntarMundo/Nivelesdemenu/UEDPIE_0_SeleccionHeroe.SeleccionHeroe up for play (max tick rate 60) at 2018.10.28-21.57.02
+[2018.10.29-02.57.02:877][311]LogWorld: Bringing up level for play took: 0.810415
+[2018.10.29-02.57.03:586][311]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-02.57.03:586][311]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-02.57.03:586][311]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-02.57.03:586][311]LogScriptCore: Warning: Script Msg: Attempted to access index 3 from array 'ColumnData' of length 2 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-02.57.03:611][311]LogLoad: Took 27.243412 seconds to LoadMap(/Game/MenuPrincipal/EntarMundo/Nivelesdemenu/SeleccionHeroe)
+[2018.10.29-02.57.03:989][312]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069392 > MaxSimulationTimeStep (0.050) for 'Base_H_Blueprint_3149', movement 'Walking'
+[2018.10.29-02.57.45:103][746]LogAnimation: Warning: Animation Base_H_Space1D is incompatible with skeleton Tigre_Skeleton, removing animation from actor.
+[2018.10.29-02.57.48:225][928]LogNet: Browse: /Game/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap??llisten
+[2018.10.29-02.57.48:226][928]LogLoad: LoadMap: /Game/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap??llisten
+[2018.10.29-02.58.09:194][928]LogPackageName: Warning: String asset reference "Env_Ice_RuinedWalls001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.58.09:194][928]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.58.09:549][928]LogPackageName: SearchForPackageOnDisk took   0.354s, but failed to resolve Env_Ice_RuinedWalls001.
+[2018.10.29-02.58.09:549][928]LogPackageName: Warning: String asset reference "Env_Ice_RuinedWalls001" could not be resolved.
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Inqusitor_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Herald_Standard_diffuse01_emission (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Herald_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Alchemist_Standard_Potion_Diffuse01 (AutoDXT, 128X128)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Alchemist_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: narisha_n (BC5, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Seeker_Standard_diffuse01_spec1 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Seeker_Standard_diffuse01_emission (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Engineer_Standard_Oil_Mask01 (AutoDXT, 128X128)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Seeker_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: narisha_d (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Engineer_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Engineer_Standard_Tracks_Diffuse02 (AutoDXT, 128X128)
+[2018.10.29-02.58.16:223][928]LogTexture: Display: Building textures: Ravener_standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:224][928]LogTexture: Display: Building textures: Stormcaller_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.16:224][928]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.10.29-02.58.16:224][928]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.10.29-02.58.16:708][928]LogPackageName: SearchForPackageOnDisk took   0.484s, but failed to resolve Env_Ice_Rocky.
+[2018.10.29-02.58.16:708][928]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.10.29-02.58.19:893][928]LogTexture: Display: Building textures: dragon_s_0 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: dragon_n_0 (BC5, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: dragon_d_0 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: MountScorpion_Standard01_diffuse (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: MountPolarBear_Diffuse01 (AutoDXT, 512X512)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Herald_Standard_diffuse01_spec1 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: body_d (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Inhibitor_Standard_diffuse01_spec2 (AutoDXT, 512X512)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Inhibitor_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Nomad_standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: MountHorse_Halloween_props_diffuse (AutoDXT, 256X256)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: MountHorse_Halloween_diffuse (AutoDXT, 512X512)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Harbinger_standard_diffuse01_Spec1 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Harbinger_standard_diffuse01_Emission (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: rengar_n (BC5, 32X32)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Harbinger_standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: rengar_d (AutoDXT, 512X512)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: Psychopomp_Standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogTexture: Display: Building textures: BloodPriest_standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.19:894][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Oldur/idle_Anim_mixamo_com.idle_Anim_mixamo_com
+[2018.10.29-02.58.20:017][928]LogTexture: Display: Building textures: Swordmaster_standard_diffuse01 (AutoDXT, 2048X2048)
+[2018.10.29-02.58.20:017][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Oldur/idle_Anim_mixamo_com.idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.20:881][928]LogTexture: Display: Building textures: Vanguard_standard_diffuse01 (AutoDXT, 1024X1024)
+[2018.10.29-02.58.20:882][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Pestilus/holding_idle_Anim.holding_idle_Anim
+[2018.10.29-02.58.20:882][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Pestilus/holding_idle_Anim.holding_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.20:909][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Poloma/breathing_idle_Anim.breathing_idle_Anim
+[2018.10.29-02.58.20:909][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Poloma/breathing_idle_Anim.breathing_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.20:914][928]LogMaterial: Missing cached shader map for material BloodPriest_GEO, compiling. 
+[2018.10.29-02.58.21:184][928]LogMaterial: Missing cached shader map for material Inquisitor, compiling. 
+[2018.10.29-02.58.24:743][928]LogTexture: Display: Building textures: body_n (BC5, 4096X4096)
+[2018.10.29-02.58.24:744][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Raigon/holding_idle_Anim.holding_idle_Anim
+[2018.10.29-02.58.24:744][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Raigon/holding_idle_Anim.holding_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.24:748][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Pearl/happy_idle_Anim.happy_idle_Anim
+[2018.10.29-02.58.24:748][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Pearl/happy_idle_Anim.happy_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.31:874][928]LogStaticMesh: Generando la malla estática Escalera_lineal_Pincel97_StaticMesh...
+[2018.10.29-02.58.31:926][928]LogStaticMesh: Built static mesh [0.07s] /Game/Escalera_lineal_Pincel97_StaticMesh.Escalera_lineal_Pincel97_StaticMesh
+[2018.10.29-02.58.31:926][928]LogStaticMesh: Generando la malla estática Caja_Pincel992_StaticMesh...
+[2018.10.29-02.58.31:930][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel992_StaticMesh.Caja_Pincel992_StaticMesh
+[2018.10.29-02.58.31:930][928]LogStaticMesh: Generando la malla estática Caja_Pincel991_StaticMesh1...
+[2018.10.29-02.58.31:933][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel991_StaticMesh1.Caja_Pincel991_StaticMesh1
+[2018.10.29-02.58.31:933][928]LogStaticMesh: Generando la malla estática Caja_Pincel991_StaticMesh...
+[2018.10.29-02.58.31:935][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel991_StaticMesh.Caja_Pincel991_StaticMesh
+[2018.10.29-02.58.31:980][928]LogStaticMesh: Generando la malla estática Caja_Pincel956_StaticMesh3...
+[2018.10.29-02.58.31:983][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel956_StaticMesh3.Caja_Pincel956_StaticMesh3
+[2018.10.29-02.58.31:983][928]LogStaticMesh: Generando la malla estática Caja_Pincel956_StaticMesh2...
+[2018.10.29-02.58.31:986][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel956_StaticMesh2.Caja_Pincel956_StaticMesh2
+[2018.10.29-02.58.32:004][928]LogStaticMesh: Generando la malla estática Caja_Pincel956_StaticMesh1...
+[2018.10.29-02.58.32:007][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel956_StaticMesh1.Caja_Pincel956_StaticMesh1
+[2018.10.29-02.58.32:007][928]LogStaticMesh: Generando la malla estática Caja_Pincel956_StaticMesh...
+[2018.10.29-02.58.32:009][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel956_StaticMesh.Caja_Pincel956_StaticMesh
+[2018.10.29-02.58.32:020][928]LogStaticMesh: Generando la malla estática Caja_Pincel51_StaticMesh...
+[2018.10.29-02.58.32:021][928]LogStaticMesh: Built static mesh [0.00s] /Game/Caja_Pincel51_StaticMesh.Caja_Pincel51_StaticMesh
+[2018.10.29-02.58.32:804][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Jumong/holding_idle_Anim_mixamo_com.holding_idle_Anim_mixamo_com
+[2018.10.29-02.58.32:805][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Jumong/holding_idle_Anim_mixamo_com.holding_idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:807][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Freya/holding_idle_Anim.holding_idle_Anim
+[2018.10.29-02.58.32:807][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Freya/holding_idle_Anim.holding_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:808][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Iva/looking_Anim.looking_Anim
+[2018.10.29-02.58.32:808][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Iva/looking_Anim.looking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:810][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Narisha/Narisha_Anim.Narisha_Anim
+[2018.10.29-02.58.32:810][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Narisha/Narisha_Anim.Narisha_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:815][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Luci/idle_Anim.idle_Anim
+[2018.10.29-02.58.32:815][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Luci/idle_Anim.idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:827][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Oso_Polar/Arctic_Bear_Anim.Arctic_Bear_Anim
+[2018.10.29-02.58.32:827][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Oso_Polar/Arctic_Bear_Anim.Arctic_Bear_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:829][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Cia/Cia-black_idle_Anim.Cia-black_idle_Anim
+[2018.10.29-02.58.32:829][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Cia/Cia-black_idle_Anim.Cia-black_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.32:832][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Bakko/idle_Anim.idle_Anim
+[2018.10.29-02.58.32:832][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Bakko/idle_Anim.idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:927][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Taya/happy_idle_Anim.happy_idle_Anim
+[2018.10.29-02.58.46:927][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Taya/happy_idle_Anim.happy_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:927][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Varesh/holding_idle_Anim_mixamo_com.holding_idle_Anim_mixamo_com
+[2018.10.29-02.58.46:928][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Varesh/holding_idle_Anim_mixamo_com.holding_idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:939][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Rengar/guitar_playing_Anim_Take_001.guitar_playing_Anim_Take_001
+[2018.10.29-02.58.46:939][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Rengar/guitar_playing_Anim_Take_001.guitar_playing_Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:939][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Rengar/happy_idle_Anim_mixamo_com.happy_idle_Anim_mixamo_com
+[2018.10.29-02.58.46:939][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Rengar/happy_idle_Anim_mixamo_com.happy_idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:940][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Ruh_Kann/dwarf_idle_Anim_mixamo_com.dwarf_idle_Anim_mixamo_com
+[2018.10.29-02.58.46:940][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Ruh_Kann/dwarf_idle_Anim_mixamo_com.dwarf_idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:942][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Steed/Demonic_Steed_Anim.Demonic_Steed_Anim
+[2018.10.29-02.58.46:942][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Steed/Demonic_Steed_Anim.Demonic_Steed_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.46:948][928]LogMaterial: Missing cached shader map for material Oldur_Material, compiling. 
+[2018.10.29-02.58.46:998][928]LogMaterial: Missing cached shader map for material Ballena_Narisha, compiling. 
+[2018.10.29-02.58.47:076][928]LogMaterial: Missing cached shader map for material BottleGlass_GEO_ncl1_2, compiling. 
+[2018.10.29-02.58.47:131][928]LogMaterial: Missing cached shader map for material BottleGlass_GEO_ncl1_1, compiling. 
+[2018.10.29-02.58.47:183][928]LogMaterial: Missing cached shader map for material AlchemistBody_GEO_ncl1_2, compiling. 
+[2018.10.29-02.58.47:251][928]LogMaterial: Missing cached shader map for material AlchemistBody_GEO_ncl1_1, compiling. 
+[2018.10.29-02.58.47:330][928]LogMaterial: Missing cached shader map for material AlchemistBody_GEO, compiling. 
+[2018.10.29-02.58.47:404][928]LogMaterial: Missing cached shader map for material Texura_Jumong, compiling. 
+[2018.10.29-02.58.47:476][928]LogMaterial: Missing cached shader map for material Oil, compiling. 
+[2018.10.29-02.58.47:612][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.47:684][928]LogMaterial: Missing cached shader map for material Glass_001, compiling. 
+[2018.10.29-02.58.47:763][928]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2018.10.29-02.58.47:838][928]LogMaterial: Missing cached shader map for material Engineer_001, compiling. 
+[2018.10.29-02.58.47:921][928]LogMaterial: Missing cached shader map for material Band_002, compiling. 
+[2018.10.29-02.58.47:999][928]LogMaterial: Missing cached shader map for material Ravener, compiling. 
+[2018.10.29-02.58.48:078][928]LogMaterial: Missing cached shader map for material Stormcaller, compiling. 
+[2018.10.29-02.58.48:151][928]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2018.10.29-02.58.48:229][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.48:306][928]LogMaterial: Missing cached shader map for material Dragon, compiling. 
+[2018.10.29-02.58.48:380][928]LogMaterial: Missing cached shader map for material MountScorpion_Standard02_saddle, compiling. 
+[2018.10.29-02.58.48:454][928]LogMaterial: Missing cached shader map for material MountScorpion_Standard01, compiling. 
+[2018.10.29-02.58.48:539][928]LogMaterial: Missing cached shader map for material PolarBear, compiling. 
+[2018.10.29-02.58.48:621][928]LogMaterial: Missing cached shader map for material Material__28, compiling. 
+[2018.10.29-02.58.48:706][928]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2018.10.29-02.58.50:265][928]LogMaterial: Missing cached shader map for material Texturas, compiling. 
+[2018.10.29-02.58.50:337][928]LogMaterial: Missing cached shader map for material Nomad, compiling. 
+[2018.10.29-02.58.50:410][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.50:499][928]LogMaterial: Missing cached shader map for material SteedStuff, compiling. 
+[2018.10.29-02.58.50:578][928]LogMaterial: Missing cached shader map for material DemonicSteed, compiling. 
+[2018.10.29-02.58.50:653][928]LogMaterial: Missing cached shader map for material Ruhh_Texturas, compiling. 
+[2018.10.29-02.58.50:728][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.50:808][928]LogMaterial: Missing cached shader map for material Swordmaster_Standard, compiling. 
+[2018.10.29-02.58.50:979][928]LogMaterial: Missing cached shader map for material Psychopomp, compiling. 
+[2018.10.29-02.58.51:170][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.51:334][928]LogMaterial: Missing cached shader map for material Material__27, compiling. 
+[2018.10.29-02.58.51:411][928]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2018.10.29-02.58.51:504][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-02.58.51:582][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Dragon/Volga_Dragon_Anim.Volga_Dragon_Anim
+[2018.10.29-02.58.51:582][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Dragon/Volga_Dragon_Anim.Volga_Dragon_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.51:587][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Deathstalker_Scorpion/scorpion_Anim.scorpion_Anim
+[2018.10.29-02.58.51:587][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Deathstalker_Scorpion/scorpion_Anim.scorpion_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.51:591][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Ezmo/happy_idle_Anim.happy_idle_Anim
+[2018.10.29-02.58.51:591][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Ezmo/happy_idle_Anim.happy_idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.51:592][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NPC_soni/Rengar/guitar_playing_Anim_mixamo_com.guitar_playing_Anim_mixamo_com
+[2018.10.29-02.58.51:592][928]LogAnimationCompression: Recompressing (AnimSequence /Game/NPC_soni/Rengar/guitar_playing_Anim_mixamo_com.guitar_playing_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.29-02.58.51:997][928]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2018.10.29-03.09.15:413][928]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.29-03.09.18:158][928]LogLoad: Game class is 'MyGame_C'
+[2018.10.29-03.10.09:502][928]PIE: Warning: AttachTo: '/Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Estatua_302.ParticleSystem' no es estático  (in blueprint "Estatua_1"), no puede anexar '/Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Estatua_302.StaticMesh' lo que es estático a él. Abortando.
+[2018.10.29-03.10.09:579][928]PIE: Warning: AttachTo: '/Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Estatua_302.DefaultSceneRoot' no es estático  (in blueprint "Estatua_1"), no puede anexar '/Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Estatua_302.StaticMesh1' lo que es estático a él. Abortando.
+[2018.10.29-03.10.10:487][928]LogWorld: Bringing World /Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.28-22.10.10
+[2018.10.29-03.10.11:310][928]LogWorld: Bringing up level for play took: 19.473074
+[2018.10.29-03.10.11:966][928]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-03.10.11:966][928]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.29-03.10.11:966][928]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-03.10.15:715][928]PIE: Warning: Invalid Simulate Options: Body (AssetDisparadorMisiones_C_0.SkeletalMesh) is set to simulate physics but Collision Enabled is incompatible
+[2018.10.29-03.10.15:781][928]LogBlueprintUserMessages: [Heroe_C_0] 0
+[2018.10.29-03.10.15:786][928]PIE: Warning: Invalid Simulate Options: Body (AssetDisparadorMisiones_C_1.SkeletalMesh) is set to simulate physics but Collision Enabled is incompatible
+[2018.10.29-03.10.15:787][928]LogBlueprintUserMessages: [Heroe_C_0] 1
+[2018.10.29-03.10.15:901][928]LogBlueprintUserMessages: [ThirdPersonExampleMap_C_1] HEROE
+[2018.10.29-03.10.16:015][928]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.29-03.10.16:034][928]LogLoad: Took 747.808107 seconds to LoadMap(/Game/ThirdPerson/ThirdPersonBP/ThirdPersonExampleMap)
+[2018.10.29-03.10.39:388][929]LogStreaming: Warning: Took 113.27ms to ProcessLoadedPackages
+[2018.10.29-03.12.48:468][454]Cmd: r.ScreenPercentage 75
+[2018.10.29-03.12.49:688][454]r.ScreenPercentage = "75"
+[2018.10.29-03.12.51:558][470]Cmd: sg.ShadowQuality 2
+[2018.10.29-03.12.51:916][470]sg.ShadowQuality = "2"
+[2018.10.29-03.12.52:167][471]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:3543).
+[2018.10.29-03.12.59:906][564]Cmd: sg.ShadowQuality 3
+[2018.10.29-03.12.59:936][564]sg.ShadowQuality = "3"
+[2018.10.29-03.12.59:959][565]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:3637).
+[2018.10.29-03.13.01:871][586]Cmd: r.PostProcessAAQuality 2
+[2018.10.29-03.13.01:871][586]r.PostProcessAAQuality = "2"
+[2018.10.29-03.13.04:656][645]Cmd: r.MaxFPS 60
+[2018.10.29-03.13.04:732][645]Command not recognized: r.MaxFPS 60
+[2018.10.29-03.13.05:239][658]Cmd: r.MaxFPS 144
+[2018.10.29-03.13.05:239][658]Command not recognized: r.MaxFPS 144
+[2018.10.29-03.13.54:408][454]LogScript: Warning: Accessed None trying to read property HudreferenciaDescripcionitem
+	Heroe_C /Game/ThirdPerson/ThirdPersonBP/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Heroe_C_0
+	Function /Game/Heroes/Heroe.Heroe_C:ExecuteUbergraph_Heroe:1A51
+[2018.10.29-03.13.54:587][454]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HudreferenciaDescripcionitem from function: 'ExecuteUbergraph_Heroe' from node: Remove from Parent in graph: EventGraph in object: Heroe with description: Accessed None trying to read property HudreferenciaDescripcionitem
+[2018.10.29-03.13.56:227][474]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-03.13.56:227][474]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-03.13.56:227][474]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'ColumnData' of length 0 in '/Script/MySQL.MySQLDataTable'!
+[2018.10.29-03.14.19:714][157]LogCharacterMovement: Heroe_C_0 is stuck and failed to move! Velocity: X=55.63 Y=125.21 Z=0.00 Location: X=-10960.51 Y=2472.67 Z=222.15 Normal: X=-0.64 Y=-0.77 Z=-0.00 PenetrationDepth:13.926 Actor:idle_Anim_mixamo_com_81 Component:SkeletalMeshComponent0 BoneName:LeftHand (0 other events since notify)
+[2018.10.29-03.14.21:523][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-03.14.27:020][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuPrincipal/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MenuPrincipal/Main.Main_C' with ClassGeneratedBy '/Game/MenuPrincipal/Main.Main:PersistentLevel.Main'
+[2018.10.29-03.15.05:193][320]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.29-03.15.14:665][321]Cmd: QUIT_EDITOR
+[2018.10.29-03.15.17:760][321]LogExit: Preparing to exit.
+[2018.10.29-03.15.20:834][321]LogDirectoryWatcher: A directory notification for 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/' was aborted.
+[2018.10.29-03.15.25:527][321]LogExit: Editor shut down
+[2018.10.29-03.15.28:862][321]LogExit: Transaction tracking system shut down
+[2018.10.29-03.15.50:123][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.29-03.15.50:123][321]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/' was aborted.
+[2018.10.29-03.15.50:210][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.29-03.15.50:210][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/MySQL/Content/' was aborted.
+[2018.10.29-03.15.50:210][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.29-03.15.50:210][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.29-03.15.50:210][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.29-03.15.50:211][321]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.29-03.17.15:205][321]LogExit: Object subsystem successfully closed.
+[2018.10.29-03.17.16:246][321]LogD3D11RHI: Shutdown
+[2018.10.29-03.17.16:246][321]LogD3D11RHI: CleanupD3DDevice
+[2018.10.29-03.17.16:934][321]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.29-03.17.23:165][321]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (558)
+[2018.10.29-03.17.23:167][321]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (556)
+[2018.10.29-03.17.23:167][321]LogModuleManager: Shutting down and abandoning module DesktopPlatform (554)
+[2018.10.29-03.17.23:190][321]LogModuleManager: Shutting down and abandoning module SceneOutliner (552)
+[2018.10.29-03.17.23:208][321]LogModuleManager: Shutting down and abandoning module AddContentDialog (550)
+[2018.10.29-03.17.23:280][321]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.10.29-03.17.23:345][321]LogModuleManager: Shutting down and abandoning module WidgetCarousel (549)
+[2018.10.29-03.17.23:345][321]LogModuleManager: Shutting down and abandoning module EditorWidgets (546)
+[2018.10.29-03.17.23:345][321]LogModuleManager: Shutting down and abandoning module CollectionManager (544)
+[2018.10.29-03.17.23:369][321]LogDirectoryWatcher: A directory notification for 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/Collections/' was aborted.
+[2018.10.29-03.17.23:369][321]LogDirectoryWatcher: A directory notification for 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Content/Developers/Diego/Collections/' was aborted.
+[2018.10.29-03.17.23:369][321]LogDirectoryWatcher: A directory notification for 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Saved/Collections/' was aborted.
+[2018.10.29-03.17.23:369][321]LogModuleManager: Shutting down and abandoning module StatsViewer (542)
+[2018.10.29-03.17.23:371][321]LogModuleManager: Shutting down and abandoning module FoliageEdit (540)
+[2018.10.29-03.17.23:388][321]LogModuleManager: Shutting down and abandoning module LandscapeEditor (538)
+[2018.10.29-03.17.23:535][321]LogModuleManager: Shutting down and abandoning module MeshPaintMode (536)
+[2018.10.29-03.17.23:543][321]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (534)
+[2018.10.29-03.17.23:543][321]LogModuleManager: Shutting down and abandoning module ActorPickerMode (532)
+[2018.10.29-03.17.23:543][321]LogModuleManager: Shutting down and abandoning module GeometryMode (530)
+[2018.10.29-03.17.23:544][321]LogModuleManager: Shutting down and abandoning module TextureAlignMode (528)
+[2018.10.29-03.17.23:544][321]LogModuleManager: Shutting down and abandoning module BspMode (526)
+[2018.10.29-03.17.23:577][321]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (524)
+[2018.10.29-03.17.23:590][321]LogModuleManager: Shutting down and abandoning module HardwareSurvey (522)
+[2018.10.29-03.17.23:603][321]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (520)
+[2018.10.29-03.17.23:603][321]LogModuleManager: Shutting down and abandoning module AutomationWorker (518)
+[2018.10.29-03.17.23:610][321]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (516)
+[2018.10.29-03.17.23:674][321]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (514)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module PlacementMode (513)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (510)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (508)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (506)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (504)
+[2018.10.29-03.17.23:816][321]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (502)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (500)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (498)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (496)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (494)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module CharacterAI (492)
+[2018.10.29-03.17.23:825][321]LogModuleManager: Shutting down and abandoning module AudioCapture (490)
+[2018.10.29-03.17.23:878][321]LogModuleManager: Shutting down and abandoning module SequenceRecorder (489)
+[2018.10.29-03.17.23:881][321]LogModuleManager: Shutting down and abandoning module SmartSnapping (486)
+[2018.10.29-03.17.23:881][321]LogModuleManager: Shutting down and abandoning module SessionServices (484)
+[2018.10.29-03.17.23:881][321]LogModuleManager: Shutting down and abandoning module ViewportSnapping (482)
+[2018.10.29-03.17.23:891][321]LogModuleManager: Shutting down and abandoning module ViewportInteraction (480)
+[2018.10.29-03.17.23:902][321]LogModuleManager: Shutting down and abandoning module ClothPainter (478)
+[2018.10.29-03.17.23:939][321]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (477)
+[2018.10.29-03.17.23:987][321]LogModuleManager: Shutting down and abandoning module LogVisualizer (474)
+[2018.10.29-03.17.24:019][321]LogModuleManager: Shutting down and abandoning module IntroTutorials (472)
+[2018.10.29-03.17.24:087][321]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (471)
+[2018.10.29-03.17.24:145][321]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (468)
+[2018.10.29-03.17.24:145][321]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (466)
+[2018.10.29-03.17.24:145][321]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (464)
+[2018.10.29-03.17.24:145][321]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (463)
+[2018.10.29-03.17.24:718][321]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (460)
+[2018.10.29-03.17.24:740][321]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (458)
+[2018.10.29-03.17.24:740][321]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (456)
+[2018.10.29-03.17.24:740][321]LogModuleManager: Shutting down and abandoning module InputBindingEditor (454)
+[2018.10.29-03.17.24:750][321]LogModuleManager: Shutting down and abandoning module MergeActors (452)
+[2018.10.29-03.17.24:762][321]LogModuleManager: Shutting down and abandoning module SizeMap (450)
+[2018.10.29-03.17.24:775][321]LogModuleManager: Shutting down and abandoning module TreeMap (448)
+[2018.10.29-03.17.24:818][321]LogModuleManager: Shutting down and abandoning module ReferenceViewer (446)
+[2018.10.29-03.17.24:964][321]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (444)
+[2018.10.29-03.17.24:979][321]LogModuleManager: Shutting down and abandoning module LocalizationService (443)
+[2018.10.29-03.17.25:014][321]LogModuleManager: Shutting down and abandoning module HardwareTargeting (440)
+[2018.10.29-03.17.25:014][321]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (438)
+[2018.10.29-03.17.25:022][321]LogModuleManager: Shutting down and abandoning module UndoHistory (436)
+[2018.10.29-03.17.25:022][321]LogModuleManager: Shutting down and abandoning module XmlParser (434)
+[2018.10.29-03.17.25:023][321]LogModuleManager: Shutting down and abandoning module Blutility (432)
+[2018.10.29-03.17.25:033][321]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (430)
+[2018.10.29-03.17.25:033][321]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (429)
+[2018.10.29-03.17.25:055][321]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (426)
+[2018.10.29-03.17.25:055][321]LogModuleManager: Shutting down and abandoning module SettingsEditor (424)
+[2018.10.29-03.17.25:092][321]LogModuleManager: Shutting down and abandoning module ProjectLauncher (422)
+[2018.10.29-03.17.25:155][321]LogModuleManager: Shutting down and abandoning module SessionFrontend (420)
+[2018.10.29-03.17.25:202][321]LogModuleManager: Shutting down and abandoning module ProfilerClient (418)
+[2018.10.29-03.17.25:213][321]LogModuleManager: Shutting down and abandoning module DeviceManager (416)
+[2018.10.29-03.17.25:238][321]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (415)
+[2018.10.29-03.17.25:357][321]LogModuleManager: Shutting down and abandoning module AutomationController (412)
+[2018.10.29-03.17.25:380][321]LogModuleManager: Shutting down and abandoning module AutomationWindow (410)
+[2018.10.29-03.17.25:416][321]LogModuleManager: Shutting down and abandoning module Layers (408)
+[2018.10.29-03.17.25:481][321]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (406)
+[2018.10.29-03.17.25:481][321]LogModuleManager: Shutting down and abandoning module DetailCustomizations (404)
+[2018.10.29-03.17.25:574][321]LogModuleManager: Shutting down and abandoning module PackagesDialog (402)
+[2018.10.29-03.17.25:589][321]LogModuleManager: Shutting down and abandoning module Persona (400)
+[2018.10.29-03.17.25:726][321]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (399)
+[2018.10.29-03.17.25:726][321]LogModuleManager: Shutting down and abandoning module AnimGraph (397)
+[2018.10.29-03.17.25:748][321]LogModuleManager: Shutting down and abandoning module Kismet (394)
+[2018.10.29-03.17.25:891][321]LogModuleManager: Shutting down and abandoning module ClassViewer (392)
+[2018.10.29-03.17.25:931][321]LogModuleManager: Shutting down and abandoning module Toolbox (390)
+[2018.10.29-03.17.25:931][321]LogModuleManager: Shutting down and abandoning module ModuleUI (388)
+[2018.10.29-03.17.25:936][321]LogModuleManager: Shutting down and abandoning module MovieSceneTools (386)
+[2018.10.29-03.17.26:072][321]LogModuleManager: Shutting down and abandoning module OutputLog (384)
+[2018.10.29-03.17.26:088][321]LogModuleManager: Shutting down and abandoning module GammaUI (382)
+[2018.10.29-03.17.26:106][321]LogModuleManager: Shutting down and abandoning module Documentation (380)
+[2018.10.29-03.17.26:156][321]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (378)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module MovieScene (376)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (374)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module LauncherPlatform (372)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module AnalyticsET (370)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module PortalServices (368)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module PortalRpc (366)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module MessagingRpc (364)
+[2018.10.29-03.17.26:163][321]LogModuleManager: Shutting down and abandoning module AIModule (362)
+[2018.10.29-03.17.26:227][321]LogModuleManager: Shutting down and abandoning module GameplayDebugger (361)
+[2018.10.29-03.17.26:229][321]LogModuleManager: Shutting down and abandoning module AITestSuite (359)
+[2018.10.29-03.17.26:259][321]LogModuleManager: Shutting down and abandoning module ProfilerService (356)
+[2018.10.29-03.17.26:496][321]LogModuleManager: Shutting down and abandoning module TaskGraph (354)
+[2018.10.29-03.17.26:552][321]LogModuleManager: Shutting down and abandoning module SteamVRController (352)
+[2018.10.29-03.17.26:552][321]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (350)
+[2018.10.29-03.17.26:552][321]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (348)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module OculusInput (346)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (344)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (342)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module CableComponent (340)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (338)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module AndroidPermission (336)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module ActorSequence (332)
+[2018.10.29-03.17.26:562][321]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (330)
+[2018.10.29-03.17.26:612][321]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (328)
+[2018.10.29-03.17.26:642][321]LogModuleManager: Shutting down and abandoning module MediaCompositing (326)
+[2018.10.29-03.17.26:642][321]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (324)
+[2018.10.29-03.17.26:642][321]LogModuleManager: Shutting down and abandoning module MySQL (322)
+[2018.10.29-03.17.26:642][321]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2018.10.29-03.17.26:642][321]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2018.10.29-03.17.26:689][321]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2018.10.29-03.17.26:689][321]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2018.10.29-03.17.26:689][321]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2018.10.29-03.17.26:689][321]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2018.10.29-03.17.26:689][321]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2018.10.29-03.17.26:721][321]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2018.10.29-03.17.26:746][321]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2018.10.29-03.17.26:773][321]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2018.10.29-03.17.26:774][321]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2018.10.29-03.17.26:774][321]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2018.10.29-03.17.26:796][321]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2018.10.29-03.17.26:847][321]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2018.10.29-03.17.26:903][321]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2018.10.29-03.17.26:928][321]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2018.10.29-03.17.26:928][321]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2018.10.29-03.17.26:928][321]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2018.10.29-03.17.26:928][321]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2018.10.29-03.17.26:997][321]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2018.10.29-03.17.27:033][321]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2018.10.29-03.17.27:287][321]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2018.10.29-03.17.27:313][321]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2018.10.29-03.17.27:368][321]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2018.10.29-03.17.27:368][321]LogDirectoryWatcher: A directory notification for 'C:/Users/Diego/Documents/GitHub/Pacto_de_HonoRPGTesis/Codigo/Binaries/Win64' was aborted.
+[2018.10.29-03.17.27:429][321]LogModuleManager: Shutting down and abandoning module Pacto_de_Honor (272)
+[2018.10.29-03.17.27:429][321]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.10.29-03.17.27:429][321]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.10.29-03.17.27:460][321]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.10.29-03.17.27:460][321]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2018.10.29-03.17.27:460][321]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2018.10.29-03.17.27:460][321]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2018.10.29-03.17.27:460][321]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2018.10.29-03.17.27:479][321]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.10.29-03.17.27:616][321]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.10.29-03.17.27:739][321]LogModuleManager: Shutting down and abandoning module VaRestPlugin (252)
+[2018.10.29-03.17.27:751][321]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.10.29-03.17.27:790][321]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.10.29-03.17.27:803][321]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.10.29-03.17.27:803][321]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.10.29-03.17.27:842][321]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.10.29-03.17.27:918][321]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.10.29-03.17.27:943][321]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.10.29-03.17.27:943][321]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.10.29-03.17.27:958][321]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.10.29-03.17.27:966][321]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.10.29-03.17.28:040][321]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.10.29-03.17.28:045][321]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.10.29-03.17.28:045][321]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.10.29-03.17.28:045][321]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.10.29-03.17.28:075][321]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.10.29-03.17.28:075][321]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.10.29-03.17.28:081][321]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.10.29-03.17.28:081][321]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.10.29-03.17.28:081][321]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.10.29-03.17.28:141][321]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.10.29-03.17.28:215][321]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.10.29-03.17.28:215][321]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.10.29-03.17.28:247][321]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.10.29-03.17.28:311][321]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.10.29-03.17.28:329][321]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.10.29-03.17.28:411][321]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.10.29-03.17.28:411][321]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.10.29-03.17.28:502][321]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.10.29-03.17.28:582][321]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.10.29-03.17.28:625][321]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.10.29-03.17.28:659][321]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.10.29-03.17.28:659][321]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.10.29-03.17.29:039][321]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.10.29-03.17.29:039][321]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.10.29-03.17.29:050][321]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.10.29-03.17.29:058][321]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.10.29-03.17.29:126][321]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.10.29-03.17.29:131][321]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.10.29-03.17.29:178][321]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.10.29-03.17.29:178][321]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.10.29-03.17.29:218][321]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.10.29-03.17.29:237][321]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.10.29-03.17.29:268][321]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.10.29-03.17.29:278][321]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.10.29-03.17.29:311][321]LogDerivedDataCache: Shutdown
+[2018.10.29-03.17.29:311][321]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.10.29-03.17.29:312][321]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.10.29-03.17.29:325][321]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.10.29-03.17.29:360][321]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.10.29-03.17.29:384][321]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.10.29-03.17.29:413][321]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.10.29-03.17.29:432][321]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.10.29-03.17.29:465][321]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.10.29-03.17.29:481][321]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.10.29-03.17.29:481][321]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.10.29-03.17.30:076][321]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.10.29-03.17.30:076][321]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.10.29-03.17.30:076][321]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.10.29-03.17.30:087][321]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.10.29-03.17.30:126][321]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.10.29-03.17.30:175][321]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.10.29-03.17.30:199][321]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.10.29-03.17.30:199][321]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.10.29-03.17.30:213][321]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.10.29-03.17.30:230][321]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.10.29-03.17.30:267][321]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.10.29-03.17.30:267][321]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.10.29-03.17.30:267][321]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.10.29-03.17.30:267][321]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.10.29-03.17.30:267][321]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.10.29-03.17.30:273][321]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.10.29-03.17.30:301][321]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.10.29-03.17.30:301][321]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.10.29-03.17.30:301][321]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.29-03.17.30:301][321]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.29-03.17.30:301][321]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.29-03.17.30:497][321]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.29-03.17.30:633][321]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.29-03.17.30:633][321]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.29-03.17.30:642][321]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7DB78C44-40D8-E372-A6F8-EDA4AE8A2985%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=569d515044e764f32914a8881f4c5404%7C878fc08817f84bee970b6b9c89f697a9%7C77ad5e43-5f4f-46c1-8e5f-b55a13746e6d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.29-03.17.30:670][321]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.29-03.17.30:781][321]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.29-03.17.31:038][321]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.29-03.17.31:192][321]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.29-03.17.31:310][321]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.29-03.17.31:375][321]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.29-03.17.31:375][321]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.29-03.17.31:375][321]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.29-03.17.31:525][321]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.29-03.17.31:538][321]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.29-03.17.31:538][321]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.29-03.17.31:564][321]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.29-03.17.31:564][321]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.29-03.17.31:564][321]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.29-03.17.31:564][321]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.29-03.17.31:584][321]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.29-03.17.31:584][321]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.29-03.17.31:636][321]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.29-03.17.31:637][321]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.29-03.17.32:212][321]LogExit: Exiting.
+[2018.10.29-03.17.32:256][321]Log file closed, 10/28/18 22:17:32
